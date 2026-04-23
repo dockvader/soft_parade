@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Manrope', sans-serif;
+  --color-bg: #0f0c08;
+  --color-bg-soft: #17120d;
+  --color-panel: rgba(255, 255, 255, 0.05);
+  --color-text: #f7f2ea;
+  --color-muted: rgba(247, 242, 234, 0.64);
+  --color-ink: #f0d9ac;
+  --color-gold: #c9a96b;
+  --color-gold-soft: rgba(201, 169, 107, 0.38);
+  --tracking-headings: 0.08em;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background:
+    radial-gradient(circle at top, rgba(201, 169, 107, 0.16), transparent 28%),
+    linear-gradient(180deg, #120e09 0%, #0f0c08 45%, #090705 100%);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  letter-spacing: var(--tracking-headings);
+  font-weight: 600;
+}
+
+::selection {
+  background: var(--color-ink);
+  color: var(--color-bg);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0906;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(201, 169, 107, 0.45);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(201, 169, 107, 0.62);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.editorial-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.03));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 24px 90px rgba(0, 0, 0, 0.22);
+}
+
+.ad-slot {
+  border: 1px dashed var(--color-gold-soft);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
