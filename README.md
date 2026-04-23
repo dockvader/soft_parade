@@ -1,5 +1,36 @@
-# Vue 3 + Vite
+# A LONG VACATION
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A travel journal built with Vue 3 and Vite.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Local development
+
+```bash
+npm install
+npm run dev
+```
+
+## Production build
+
+```bash
+npm run build
+```
+
+The production files are generated in `dist/`.
+
+## Deploy to Cloudflare Pages
+
+Recommended setup:
+
+- Connect this repository to `Cloudflare Pages`
+- Framework preset: `Vite`
+- Build command: `npm run build`
+- Build output directory: `dist`
+
+For a custom subdomain, add it from:
+
+- `Cloudflare Dashboard -> Workers & Pages -> your project -> Custom domains`
+
+Suggested subdomains:
+
+- `www.a-long-vacation.com`
+- `blog.a-long-vacation.com`
