@@ -1,38 +1,11 @@
 {
-  "order": 1,
-  "id": "tokyo",
-  "status": "completed",
-  "homepageSection": "completed",
-  "country": "Japan",
-  "title": "Tokyo After Dark",
-  "subtitle": "Neon streets, quiet mornings, and a week of wandering with no hard edges.",
-  "dates": "July 11 - July 17, 2023",
-  "season": "Summer",
   "readTime": "8 min read",
-  "base": "Tokyo",
+  "season": "Summer",
   "coverImage": "/images/japan/jp_tokyo2023/20230711_193547.jpg",
-  "description": "A photo-driven city diary stitched together from late-night arrivals, neighborhood walks, train rides, and the small rituals that make Tokyo feel cinematic.",
+  "dates": "July 11 - July 17, 2023",
   "intro": "This journal leans into texture over checklist travel. It keeps the stations, streets, snacks, and detours that gave the trip its mood.",
-  "highlights": [
-    "Night arrivals",
-    "Neighborhood wandering",
-    "Transit rhythm",
-    "Street photography"
-  ],
-  "stats": [
-    {
-      "label": "Days",
-      "value": "8"
-    },
-    {
-      "label": "Moments kept",
-      "value": "24"
-    },
-    {
-      "label": "Pace",
-      "value": "Slow"
-    }
-  ],
+  "order": 1,
+  "base": "Tokyo",
   "gallery": [
     "/images/japan/jp_tokyo2023/20230711_193547.jpg",
     "/images/japan/jp_tokyo2023/20230712_130126.jpg",
@@ -41,12 +14,14 @@
     "/images/japan/jp_tokyo2023/20230712_194628.jpg",
     "/images/japan/jp_tokyo2023/20230714_181003.jpg"
   ],
+  "status": "completed",
+  "country": "Japan",
   "days": [
     {
       "dayNumber": 1,
       "title": "Arrival, Ueno, and the first long walk",
       "coverImage": "/images/japan/jp_tokyo2023/20230711_193547.jpg",
-      "note": "The trip begins in transit and settles into the city slowly, with enough room to notice signage, station light, and the feeling of finally being here.",
+      "note": "第一天入住了綾瀨",
       "stops": [
         {
           "title": "Narita to the city",
@@ -260,5 +235,30 @@
         }
       ]
     }
+  ],
+  "homepageSection": "completed",
+  "subtitle": "Neon streets, quiet mornings, and a week of wandering with no hard edges.",
+  "title": "Tokyo After Dark",
+  "id": "tokyo",
+  "description": "A photo-driven city diary stitched together from late-night arrivals, neighborhood walks, train rides, and the small rituals that make Tokyo feel cinematic.",
+  "stats": [
+    {
+      "label": "Days",
+      "value": "8"
+    },
+    {
+      "label": "Moments kept",
+      "value": "24"
+    },
+    {
+      "label": "Pace",
+      "value": "Slow"
+    }
+  ],
+  "highlights": [
+    "Night arrivals",
+    "Neighborhood wandering",
+    "Transit rhythm",
+    "Street photography"
   ]
 }
