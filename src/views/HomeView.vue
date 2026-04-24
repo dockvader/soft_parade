@@ -1,16 +1,17 @@
 <script setup>
 import { computed } from 'vue'
 import { journals } from '../data/journals'
+import { site } from '../data/site'
 import { RouterLink } from 'vue-router'
 
-const plannedTrips = computed(() => journals.filter(j => j.status === 'planning' && j.id !== 'usa-2025'))
-const completedTrips = computed(() => journals.filter(j => j.status !== 'planning' || j.id === 'usa-2025'))
-const heroStory = computed(() => journals[0])
+const plannedTrips = computed(() => journals.filter((j) => j.homepageSection === 'planning'))
+const completedTrips = computed(() => journals.filter((j) => j.homepageSection === 'completed'))
+const heroStory = computed(() => completedTrips.value[0] || journals[0])
 </script>
 
 <template>
   <div>
-    <header class="relative min-h-screen overflow-hidden pt-28 md:pt-32">
+    <header v-if="heroStory" class="relative min-h-screen overflow-hidden pt-28 md:pt-32">
       <div class="absolute inset-0">
         <img
           :src="heroStory.coverImage"
@@ -23,14 +24,14 @@ const heroStory = computed(() => journals[0])
       <div class="relative max-w-7xl mx-auto px-5 md:px-10 pb-20 md:pb-28">
         <div class="max-w-5xl" data-aos="fade-up">
           <div class="inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-[10px] md:text-xs uppercase tracking-[0.35em] text-white/65">
-            <span>Editorial Travel Blog</span>
-            <span class="text-[var(--color-gold)]">Since 2026</span>
+            <span>{{ site.heroEyebrow }}</span>
+            <span class="text-[var(--color-gold)]">{{ site.heroBadge }}</span>
           </div>
           <h1 class="font-heading text-[56px] leading-[0.88] md:text-[128px] max-w-5xl mt-8 text-balance">
-            A LONG VACATION
+            {{ site.heroTitle }}
           </h1>
           <p class="max-w-2xl text-lg md:text-2xl text-white/72 leading-8 mt-8">
-            A travel journal built like a magazine issue: richer pacing, stronger photography, deeper notes, and room for future stories and sponsors.
+            {{ site.heroDescription }}
           </p>
         </div>
 
@@ -48,30 +49,28 @@ const heroStory = computed(() => journals[0])
             </div>
             <div class="grid gap-6 md:grid-cols-[1.1fr_0.9fr] mt-6">
               <div>
-                <p class="text-[var(--color-gold)] uppercase tracking-[0.35em] text-xs mb-3">Featured Story</p>
+                <p class="text-[var(--color-gold)] uppercase tracking-[0.35em] text-xs mb-3">{{ site.featuredLabel }}</p>
                 <h2 class="font-heading text-4xl md:text-6xl leading-none">{{ heroStory.title }}</h2>
                 <p class="text-white/70 text-lg leading-8 mt-5">{{ heroStory.subtitle }}</p>
                 <p class="text-white/60 leading-7 mt-5">{{ heroStory.intro }}</p>
               </div>
               <div class="overflow-hidden rounded-[24px] min-h-[260px] md:min-h-[340px]">
-                <img :src="heroStory.gallery[1]" :alt="heroStory.title" class="w-full h-full object-cover">
+                <img :src="heroStory.gallery[1] || heroStory.gallery[0] || heroStory.coverImage" :alt="heroStory.title" class="w-full h-full object-cover">
               </div>
             </div>
           </RouterLink>
 
           <div class="grid gap-6" data-aos="fade-up" data-aos-delay="160">
             <div class="editorial-card rounded-[28px] p-6">
-              <p class="text-xs uppercase tracking-[0.35em] text-white/45 mb-4">What Changed</p>
+              <p class="text-xs uppercase tracking-[0.35em] text-white/45 mb-4">{{ site.changeLogTitle }}</p>
               <ul class="space-y-3 text-white/75 leading-7">
-                <li>Deeper editorial layout for stories, archive, and planning notes.</li>
-                <li>Stable local photography from `public/images` instead of fragile external assets.</li>
-                <li>Dedicated future Google Ads placement that fits the page rhythm.</li>
+                <li v-for="item in site.changeLogItems" :key="item">{{ item }}</li>
               </ul>
             </div>
             <div class="ad-slot rounded-[28px] p-6">
-              <p class="text-xs uppercase tracking-[0.35em] text-[var(--color-gold)] mb-3">Google Ads Ready</p>
+              <p class="text-xs uppercase tracking-[0.35em] text-[var(--color-gold)] mb-3">{{ site.homeAdTitle }}</p>
               <p class="text-white/65 leading-7">
-                Reserve this space for AdSense. A responsive ad unit can be dropped in later without redesigning the homepage.
+                {{ site.homeAdBody }}
               </p>
             </div>
           </div>
@@ -82,11 +81,11 @@ const heroStory = computed(() => journals[0])
     <section id="stories" class="max-w-7xl mx-auto px-5 md:px-10 py-20 md:py-28">
       <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
         <div>
-          <p class="text-xs uppercase tracking-[0.38em] text-[var(--color-gold)] mb-4">Completed Story</p>
-          <h2 class="font-heading text-4xl md:text-6xl">Travel With More Depth</h2>
+          <p class="text-xs uppercase tracking-[0.38em] text-[var(--color-gold)] mb-4">{{ site.completedEyebrow }}</p>
+          <h2 class="font-heading text-4xl md:text-6xl">{{ site.completedHeading }}</h2>
         </div>
         <p class="max-w-xl text-white/60 leading-7">
-          Every journal now has a clearer narrative frame: atmosphere, pacing, highlights, and image-first reading.
+          {{ site.completedDescription }}
         </p>
       </div>
 
@@ -122,14 +121,14 @@ const heroStory = computed(() => journals[0])
           </div>
           <div class="grid grid-cols-2 gap-3">
             <div class="overflow-hidden rounded-[22px] h-64 md:h-80">
-              <img :src="journal.gallery[0]" :alt="journal.title" class="w-full h-full object-cover">
+              <img :src="journal.gallery[0] || journal.coverImage" :alt="journal.title" class="w-full h-full object-cover">
             </div>
             <div class="grid gap-3">
               <div class="overflow-hidden rounded-[22px] h-[152px] md:h-[188px]">
-                <img :src="journal.gallery[2]" :alt="journal.title" class="w-full h-full object-cover">
+                <img :src="journal.gallery[2] || journal.gallery[1] || journal.coverImage" :alt="journal.title" class="w-full h-full object-cover">
               </div>
               <div class="overflow-hidden rounded-[22px] h-[152px] md:h-[188px]">
-                <img :src="journal.gallery[4]" :alt="journal.title" class="w-full h-full object-cover">
+                <img :src="journal.gallery[4] || journal.gallery[0] || journal.coverImage" :alt="journal.title" class="w-full h-full object-cover">
               </div>
             </div>
           </div>
@@ -140,10 +139,10 @@ const heroStory = computed(() => journals[0])
     <section id="archive" class="max-w-7xl mx-auto px-5 md:px-10 py-20 md:py-28">
       <div class="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] items-start">
         <div>
-          <p class="text-xs uppercase tracking-[0.38em] text-[var(--color-gold)] mb-4">On Deck</p>
-          <h2 class="font-heading text-4xl md:text-6xl leading-none">Future Trips, Better Planning</h2>
+          <p class="text-xs uppercase tracking-[0.38em] text-[var(--color-gold)] mb-4">{{ site.archiveEyebrow }}</p>
+          <h2 class="font-heading text-4xl md:text-6xl leading-none">{{ site.archiveHeading }}</h2>
           <p class="text-white/62 leading-7 mt-6 max-w-lg">
-            Planning entries are no longer just lists. They read like field notes, with pacing, route mood, and enough structure to turn into finished stories later.
+            {{ site.archiveDescription }}
           </p>
         </div>
 

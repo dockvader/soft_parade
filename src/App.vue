@@ -1,7 +1,8 @@
 <script setup>
 import { RouterView, RouterLink } from 'vue-router'
-import { ref, onMounted, onUnmounted } from 'vue'
+import { computed, ref, onMounted, onUnmounted } from 'vue'
 import { journals } from './data/journals'
+import { site } from './data/site'
 
 const isScrolled = ref(false)
 const isMenuOpen = ref(false)
@@ -10,6 +11,12 @@ const featuredStories = journals.slice(0, 2)
 const contactEmail = ref('')
 const contactSubject = ref('')
 const contactMessage = ref('')
+
+const navStoriesLabel = computed(() => site.navStoriesLabel || 'Stories')
+const navArchiveLabel = computed(() => site.navArchiveLabel || 'Archive')
+const navAdvertisingLabel = computed(() => site.navAdvertisingLabel || 'Advertising')
+const navContactLabel = computed(() => site.navContactLabel || 'Contact')
+const contactTargetEmail = computed(() => site.contactEmail || 'great@a-long-vacation.com')
 
 const handleScroll = () => {
   isScrolled.value = window.scrollY > 50
@@ -26,9 +33,9 @@ const openContactDraft = () => {
     lines.push(contactMessage.value.trim())
   }
 
-  const subject = contactSubject.value.trim() || 'Hello from A LONG VACATION'
+  const subject = contactSubject.value.trim() || site.contactDefaultSubject || 'Hello from A LONG VACATION'
   const body = encodeURIComponent(lines.join('\n'))
-  const mailto = `mailto:great@a-long-vacation.com?subject=${encodeURIComponent(subject)}&body=${body}`
+  const mailto = `mailto:${contactTargetEmail.value}?subject=${encodeURIComponent(subject)}&body=${body}`
 
   window.location.href = mailto
 }
@@ -49,15 +56,15 @@ onUnmounted(() => {
       :class="isScrolled ? 'bg-[rgba(15,12,8,0.86)] backdrop-blur-xl border-b border-white/10 py-4' : ''"
     >
       <RouterLink to="/" class="flex flex-col leading-none hover:opacity-80 transition-opacity">
-        <span class="font-heading text-xl md:text-3xl tracking-[0.22em]">A LONG VACATION</span>
-        <span class="text-[10px] md:text-xs uppercase tracking-[0.42em] text-white/50 mt-2">Travel Journal</span>
+        <span class="font-heading text-xl md:text-3xl tracking-[0.22em]">{{ site.siteTitle }}</span>
+        <span class="text-[10px] md:text-xs uppercase tracking-[0.42em] text-white/50 mt-2">{{ site.siteLabel }}</span>
       </RouterLink>
 
       <div class="hidden md:flex items-center gap-8 text-xs uppercase tracking-[0.28em] text-white/70">
-        <a href="/#stories" class="hover:text-white transition-colors">Stories</a>
-        <a href="/#archive" class="hover:text-white transition-colors">Archive</a>
-        <a href="/#ads" class="hover:text-white transition-colors">Advertising</a>
-        <a href="/#contact" class="hover:text-white transition-colors">Contact</a>
+        <a href="/#stories" class="hover:text-white transition-colors">{{ navStoriesLabel }}</a>
+        <a href="/#archive" class="hover:text-white transition-colors">{{ navArchiveLabel }}</a>
+        <a href="/#ads" class="hover:text-white transition-colors">{{ navAdvertisingLabel }}</a>
+        <a href="/#contact" class="hover:text-white transition-colors">{{ navContactLabel }}</a>
       </div>
 
       <button
@@ -94,21 +101,21 @@ onUnmounted(() => {
           class="text-4xl md:text-6xl font-heading tracking-[0.08em] hover:text-[var(--color-gold)] transition-colors"
           @click="isMenuOpen = false"
         >
-          STORIES
+          {{ navStoriesLabel.toUpperCase() }}
         </a>
         <a
           href="/#archive"
           class="text-4xl md:text-6xl font-heading tracking-[0.08em] hover:text-[var(--color-gold)] transition-colors"
           @click="isMenuOpen = false"
         >
-          ARCHIVE
+          {{ navArchiveLabel.toUpperCase() }}
         </a>
         <a
           href="/#contact"
           class="text-lg uppercase tracking-[0.35em] text-white/60 hover:text-white transition-colors"
           @click="isMenuOpen = false"
         >
-          CONTACT
+          {{ navContactLabel.toUpperCase() }}
         </a>
       </div>
 
@@ -137,50 +144,50 @@ onUnmounted(() => {
     <footer class="border-t border-white/10 px-5 md:px-10 py-14 bg-[rgba(8,7,5,0.9)]">
       <div class="max-w-7xl mx-auto grid gap-10 md:grid-cols-[1fr_1.1fr_0.9fr]">
         <div>
-          <p class="text-xs uppercase tracking-[0.35em] text-white/45 mb-4">A LONG VACATION</p>
+          <p class="text-xs uppercase tracking-[0.35em] text-white/45 mb-4">{{ site.footerHeading }}</p>
           <p class="max-w-xl text-white/70 leading-7">
-            A travel journal about long roads, city nights, favorite photos, and the kind of trips that stay with you after the bags are unpacked.
+            {{ site.footerDescription }}
           </p>
         </div>
         <div id="contact">
-          <p class="text-xs uppercase tracking-[0.35em] text-white/45 mb-4">Contact</p>
+          <p class="text-xs uppercase tracking-[0.35em] text-white/45 mb-4">{{ site.contactHeading }}</p>
           <form class="space-y-4" @submit.prevent="openContactDraft">
             <input
               v-model="contactEmail"
               type="email"
               inputmode="email"
-              placeholder="Your email"
+              :placeholder="site.contactEmailPlaceholder"
               class="w-full rounded-[20px] border border-white/10 bg-white/5 px-5 py-4 text-base text-white placeholder:text-white/30 outline-none transition-colors focus:border-[var(--color-gold-soft)]"
             >
             <input
               v-model="contactSubject"
               type="text"
-              placeholder="Subject"
+              :placeholder="site.contactSubjectPlaceholder"
               class="w-full rounded-[20px] border border-white/10 bg-white/5 px-5 py-4 text-base text-white placeholder:text-white/30 outline-none transition-colors focus:border-[var(--color-gold-soft)]"
             >
             <textarea
               v-model="contactMessage"
               rows="5"
-              placeholder="Write your message here"
+              :placeholder="site.contactMessagePlaceholder"
               class="w-full rounded-[24px] border border-white/10 bg-white/5 px-5 py-4 text-base text-white placeholder:text-white/30 outline-none transition-colors focus:border-[var(--color-gold-soft)] resize-y"
             ></textarea>
             <button
               type="submit"
               class="inline-flex items-center justify-center rounded-full border border-[var(--color-gold-soft)] px-6 py-3 text-sm uppercase tracking-[0.28em] text-[var(--color-ink)] transition-colors hover:border-[var(--color-gold)] hover:text-white"
             >
-              Send Message
+              {{ site.contactButtonLabel }}
             </button>
           </form>
         </div>
         <div id="ads">
-          <p class="text-xs uppercase tracking-[0.35em] text-white/45 mb-4">Future Ad Slot</p>
+          <p class="text-xs uppercase tracking-[0.35em] text-white/45 mb-4">{{ site.footerAdTitle }}</p>
           <div class="rounded-[28px] border border-dashed border-[var(--color-gold-soft)] bg-[rgba(255,255,255,0.03)] p-5 text-sm text-white/60 leading-6">
-            Reserved for Google Ads or sponsor placements. The layout is ready for a responsive ad unit without breaking the reading flow.
+            {{ site.footerAdBody }}
           </div>
         </div>
       </div>
       <div class="max-w-7xl mx-auto mt-12 pt-6 border-t border-white/10 text-xs uppercase tracking-[0.28em] text-white/35">
-        2026 A LONG VACATION
+        {{ site.footerCopyright }}
       </div>
     </footer>
   </div>

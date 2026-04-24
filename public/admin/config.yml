@@ -1,0 +1,144 @@
+local_backend: true
+
+backend:
+  name: github
+  repo: dockvader/soft_parade
+  branch: main
+  # Replace with your deployed site origin before enabling live /admin auth.
+  # Example: https://blog.a-long-vacation.com
+  base_url: https://www.a-long-vacation.com
+  auth_endpoint: api/auth
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - label: "Site Settings"
+    name: "site_settings"
+    files:
+      - label: "Global Copy"
+        name: "global_copy"
+        file: "content/settings/site.json"
+        format: "json"
+        fields:
+          - { label: "Site Title", name: "siteTitle", widget: "string" }
+          - { label: "Site Label", name: "siteLabel", widget: "string" }
+          - { label: "Hero Eyebrow", name: "heroEyebrow", widget: "string" }
+          - { label: "Hero Badge", name: "heroBadge", widget: "string" }
+          - { label: "Hero Title", name: "heroTitle", widget: "string" }
+          - { label: "Hero Description", name: "heroDescription", widget: "text" }
+          - { label: "Featured Label", name: "featuredLabel", widget: "string" }
+          - { label: "Change Log Title", name: "changeLogTitle", widget: "string" }
+          - label: "Change Log Items"
+            name: "changeLogItems"
+            widget: "list"
+            field: { label: "Item", name: "item", widget: "string" }
+          - { label: "Home Ad Title", name: "homeAdTitle", widget: "string" }
+          - { label: "Home Ad Body", name: "homeAdBody", widget: "text" }
+          - { label: "Completed Eyebrow", name: "completedEyebrow", widget: "string" }
+          - { label: "Completed Heading", name: "completedHeading", widget: "string" }
+          - { label: "Completed Description", name: "completedDescription", widget: "text" }
+          - { label: "Archive Eyebrow", name: "archiveEyebrow", widget: "string" }
+          - { label: "Archive Heading", name: "archiveHeading", widget: "string" }
+          - { label: "Archive Description", name: "archiveDescription", widget: "text" }
+          - { label: "Nav Stories Label", name: "navStoriesLabel", widget: "string" }
+          - { label: "Nav Archive Label", name: "navArchiveLabel", widget: "string" }
+          - { label: "Nav Advertising Label", name: "navAdvertisingLabel", widget: "string" }
+          - { label: "Nav Contact Label", name: "navContactLabel", widget: "string" }
+          - { label: "Footer Heading", name: "footerHeading", widget: "string" }
+          - { label: "Footer Description", name: "footerDescription", widget: "text" }
+          - { label: "Contact Heading", name: "contactHeading", widget: "string" }
+          - { label: "Contact Email", name: "contactEmail", widget: "string" }
+          - { label: "Default Contact Subject", name: "contactDefaultSubject", widget: "string" }
+          - { label: "Contact Button Label", name: "contactButtonLabel", widget: "string" }
+          - { label: "Contact Email Placeholder", name: "contactEmailPlaceholder", widget: "string" }
+          - { label: "Contact Subject Placeholder", name: "contactSubjectPlaceholder", widget: "string" }
+          - { label: "Contact Message Placeholder", name: "contactMessagePlaceholder", widget: "string" }
+          - { label: "Footer Ad Title", name: "footerAdTitle", widget: "string" }
+          - { label: "Footer Ad Body", name: "footerAdBody", widget: "text" }
+          - { label: "Footer Copyright", name: "footerCopyright", widget: "string" }
+
+  - label: "Journals"
+    name: "journals"
+    folder: "content/journals"
+    create: true
+    format: "json"
+    extension: "json"
+    slug: "{{fields.id}}"
+    identifier_field: "title"
+    summary: "{{fields.title}}"
+    fields:
+      - { label: "Order", name: "order", widget: "number", value_type: "int", min: 1 }
+      - { label: "ID", name: "id", widget: "string", hint: "Used in the URL, e.g. tokyo or usa-2025" }
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        options: ["completed", "planning"]
+      - label: "Homepage Section"
+        name: "homepageSection"
+        widget: "select"
+        options: ["completed", "planning"]
+      - { label: "Country", name: "country", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "text" }
+      - { label: "Dates", name: "dates", widget: "string" }
+      - { label: "Season", name: "season", widget: "string" }
+      - { label: "Read Time", name: "readTime", widget: "string" }
+      - { label: "Base", name: "base", widget: "string", required: false }
+      - label: "Cover Image"
+        name: "coverImage"
+        widget: "image"
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Intro", name: "intro", widget: "text" }
+      - label: "Highlights"
+        name: "highlights"
+        widget: "list"
+        field: { label: "Highlight", name: "highlight", widget: "string" }
+      - label: "Stats"
+        name: "stats"
+        widget: "list"
+        summary: "{{fields.label}}: {{fields.value}}"
+        fields:
+          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Value", name: "value", widget: "string" }
+      - label: "Gallery"
+        name: "gallery"
+        widget: "list"
+        field:
+          label: "Image"
+          name: "image"
+          widget: "image"
+      - label: "Days"
+        name: "days"
+        widget: "list"
+        summary: "Day {{fields.dayNumber}} - {{fields.title}}"
+        fields:
+          - { label: "Day Number", name: "dayNumber", widget: "number", value_type: "int", min: 1 }
+          - { label: "Title", name: "title", widget: "string" }
+          - label: "Cover Image"
+            name: "coverImage"
+            widget: "image"
+            required: false
+          - { label: "Note", name: "note", widget: "text" }
+          - label: "Stops"
+            name: "stops"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Type"
+                name: "type"
+                widget: "select"
+                options: ["flight", "transport", "hotel", "food", "sight", "shopping", "note"]
+              - label: "Description"
+                name: "description"
+                widget: "list"
+                field: { label: "Paragraph", name: "paragraph", widget: "text" }
+              - label: "Links"
+                name: "links"
+                widget: "list"
+                required: false
+                summary: "{{fields.label}}"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }

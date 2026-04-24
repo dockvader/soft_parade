@@ -1,0 +1,246 @@
+{
+  "order": 2,
+  "id": "usa-2025",
+  "status": "planning",
+  "homepageSection": "completed",
+  "country": "United States",
+  "title": "Desert Loop 2025",
+  "subtitle": "Las Vegas, Grand Canyon, Page, Bryce, Zion, and the road between them.",
+  "dates": "October 19 - October 25, 2025",
+  "season": "Autumn",
+  "readTime": "Planning file",
+  "base": "Southwest",
+  "coverImage": "/images/usa/us_great_canyon2025/DSC03737.JPG",
+  "description": "A future road trip designed around long views, sunrise stops, and the contrast between neon nights and red-rock mornings.",
+  "intro": "This one is still open-ended, so the journal frames a route rather than a finished memory. The structure is here; the details will arrive later.",
+  "highlights": [
+    "Road trip pacing",
+    "National parks",
+    "Sunrise viewpoints",
+    "Photo stops"
+  ],
+  "stats": [
+    {
+      "label": "Days",
+      "value": "7"
+    },
+    {
+      "label": "Drive style",
+      "value": "Scenic"
+    },
+    {
+      "label": "Status",
+      "value": "Planning"
+    }
+  ],
+  "gallery": [
+    "/images/usa/us_great_canyon2025/DSC03593.JPG",
+    "/images/usa/us_great_canyon2025/DSC03737.JPG",
+    "/images/usa/us_great_canyon2025/DSC03818.JPG",
+    "/images/usa/us_great_canyon2025/DSC03874.JPG",
+    "/images/usa/us_great_canyon2025/DSC04040.JPG",
+    "/images/usa/us_great_canyon2025/DSC04136.JPG"
+  ],
+  "days": [
+    {
+      "dayNumber": 1,
+      "title": "Las Vegas arrival",
+      "coverImage": "/images/usa/us_great_canyon2025/DSC03593.JPG",
+      "note": "Land, pick up the car, settle in, and let the city set up the contrast for everything that follows.",
+      "stops": [
+        {
+          "title": "Airport arrival",
+          "type": "transport",
+          "description": [
+            "Touch down and reset to road-trip mode."
+          ],
+          "links": []
+        },
+        {
+          "title": "Rental car center",
+          "type": "transport",
+          "description": [
+            "Pick up the car and get supplies."
+          ],
+          "links": []
+        },
+        {
+          "title": "First night in Las Vegas",
+          "type": "sight",
+          "description": [
+            "A neon-heavy opening scene before the landscape takes over."
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "dayNumber": 2,
+      "title": "Hoover Dam to Grand Canyon",
+      "coverImage": "/images/usa/us_great_canyon2025/DSC03737.JPG",
+      "note": "A transition day with a strong sense of scale, moving from engineered spectacle to geological vastness.",
+      "stops": [
+        {
+          "title": "Hoover Dam",
+          "type": "sight",
+          "description": [
+            "An early major stop before the road opens wider."
+          ],
+          "links": []
+        },
+        {
+          "title": "Route 66 diner break",
+          "type": "food",
+          "description": [
+            "Classic roadside energy and an easy midday reset."
+          ],
+          "links": []
+        },
+        {
+          "title": "Grand Canyon viewpoints",
+          "type": "sight",
+          "description": [
+            "Late light and the first big canyon overlooks."
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "dayNumber": 3,
+      "title": "Desert View, Antelope Canyon, Page",
+      "coverImage": "/images/usa/us_great_canyon2025/DSC03818.JPG",
+      "note": "A tighter day of landmark stops, where timing matters a little more and the photography potential climbs quickly.",
+      "stops": [
+        {
+          "title": "Desert View Watchtower",
+          "type": "sight",
+          "description": [
+            "Start with a built frame for the landscape."
+          ],
+          "links": []
+        },
+        {
+          "title": "Lower Antelope Canyon",
+          "type": "sight",
+          "description": [
+            "The most time-sensitive and guided portion of the route."
+          ],
+          "links": []
+        },
+        {
+          "title": "Horseshoe Bend",
+          "type": "sight",
+          "description": [
+            "A high-impact overlook to close the day."
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "dayNumber": 4,
+      "title": "Bryce Canyon lookouts",
+      "coverImage": "/images/usa/us_great_canyon2025/DSC03874.JPG",
+      "note": "A day for layered amphitheaters, short walks, and changing rock color across the afternoon.",
+      "stops": [
+        {
+          "title": "Sunrise Point",
+          "type": "sight",
+          "description": [
+            "Start early if the light is the priority."
+          ],
+          "links": []
+        },
+        {
+          "title": "Bryce Amphitheater",
+          "type": "sight",
+          "description": [
+            "The visual centerpiece of the day."
+          ],
+          "links": []
+        },
+        {
+          "title": "Sunset and Inspiration points",
+          "type": "sight",
+          "description": [
+            "Short moves, big payoff."
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "dayNumber": 5,
+      "title": "Zion hiking day",
+      "coverImage": "/images/usa/us_great_canyon2025/DSC04040.JPG",
+      "note": "The most active day in the itinerary, where permits, energy, and weather all matter.",
+      "stops": [
+        {
+          "title": "Scout Lookout",
+          "type": "sight",
+          "description": [
+            "A strong goal even without pushing farther."
+          ],
+          "links": []
+        },
+        {
+          "title": "Angels Landing decision point",
+          "type": "sight",
+          "description": [
+            "Keep flexible depending on permits and comfort."
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "dayNumber": 6,
+      "title": "Return drive with room for detours",
+      "coverImage": "/images/usa/us_great_canyon2025/DSC04136.JPG",
+      "note": "A buffer day that works best when it stays a little loose. Scenic pull-offs should be allowed to win.",
+      "stops": [
+        {
+          "title": "Drive back toward Las Vegas",
+          "type": "transport",
+          "description": [
+            "A long road segment with potential side stops."
+          ],
+          "links": []
+        },
+        {
+          "title": "Flexible photo stops",
+          "type": "sight",
+          "description": [
+            "Use the strongest light and the strongest feeling, not just the list."
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "dayNumber": 7,
+      "title": "Departure day",
+      "coverImage": "/images/usa/us_great_canyon2025/DSC04268.JPG",
+      "note": "Return the car, leave margin for the airport, and let the trip end cleanly.",
+      "stops": [
+        {
+          "title": "Rental car return",
+          "type": "transport",
+          "description": [
+            "Refuel, return, and move light again."
+          ],
+          "links": []
+        },
+        {
+          "title": "Flight home",
+          "type": "transport",
+          "description": [
+            "Trip archive begins here."
+          ],
+          "links": []
+        }
+      ]
+    }
+  ]
+}
