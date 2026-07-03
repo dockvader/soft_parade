@@ -1,10 +1,11 @@
 {
-  "readTime": "8",
+  "readTime": "12 min read",
   "season": "Winter",
   "coverImage": "/images/uploads/20240223_092630.jpg",
-  "dates": "February 19 - February 28",
-  "intro": "尼泊爾加德滿都古都薰香",
+  "dates": "February 19 - February 28, 2024",
+  "intro": "冬末的加德滿都自帶一層濾鏡：清晨的霧、煨桑的煙、廣場上成群的鴿子，和空氣裡永遠飄著的一縷薰香。這本日誌沿著老城市集、河畔神廟、雨夜街道一路走到海拔 2,551 公尺的山頂纜車站，把十天裡最有味道的片段留下來。",
   "order": 2,
+  "base": "Kathmandu 加德滿都",
   "gallery": [
     "/images/uploads/20240223_104730.jpg",
     "/images/uploads/20240221_104820.jpg",
@@ -15,10 +16,320 @@
   ],
   "status": "completed",
   "country": "尼泊爾 Nepal",
+  "days": [
+    {
+      "dayNumber": 1,
+      "title": "降落谷地，在喇叭聲裡醒來",
+      "coverImage": "/images/uploads/20240221_091643.jpg",
+      "note": "旅程從特里布萬機場的入境章開始。加德滿都不會慢慢自我介紹——一出航廈，塵土、喇叭、經幡和滿街摩托車就一次全部湧上來。",
+      "stops": [
+        {
+          "title": "特里布萬國際機場入境",
+          "type": "flight",
+          "description": [
+            "特里布萬國際機場（Tribhuvan International Airport）是尼泊爾唯一的洲際門戶，紅磚航廈小得不像一國首都，卻承接了往喜馬拉雅的絕大多數旅人。",
+            "多數國籍可辦落地簽：先在自助機台填資料、再到櫃檯繳費（15 天 / 30 天 / 90 天三種），備妥美金現鈔會快很多。出關後直接找預付計程車櫃檯，到市區約 20–40 分鐘。"
+          ],
+          "links": [
+            {
+              "label": "機場位置",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tribhuvan+International+Airport"
+            }
+          ]
+        },
+        {
+          "title": "泰美爾落腳",
+          "type": "hotel",
+          "description": [
+            "泰美爾（Thamel）是背包客與登山隊的大本營：巷弄裡層層疊疊掛滿店招，登山裝備行、唐卡畫室、書店、咖啡館和旅行社擠在一起，走三步就有人問要不要去 EBC。",
+            "把住宿設在這裡的好處是半徑一公里內什麼都有——換匯、SIM 卡、藥局、各國菜色，深夜也找得到熱食。缺點是主巷入夜後喧鬧，訂房時挑靠內側的巷子會睡得好一點。"
+          ],
+          "links": [
+            {
+              "label": "Thamel 地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Thamel+Kathmandu"
+            }
+          ]
+        },
+        {
+          "title": "第一晚的街頭",
+          "type": "sight",
+          "description": [
+            "不趕行程，先讓身體適應這座城的節奏：電線在頭頂織成網、神龕嵌在街角、野狗睡在廟簷下。加德滿都的第一課是「一切都在路上發生」，看懂了街道，就看懂了半座城。"
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "dayNumber": 2,
+      "title": "老城心臟：阿山市集與王宮大街",
+      "coverImage": "/images/uploads/20240221_090815.jpg",
+      "note": "清晨九點的老城正是最活的時候。從阿山廣場的香料攤一路走到王宮大街，短短兩公里跨過了中世紀市集與近代王朝的兩個世界。",
+      "stops": [
+        {
+          "title": "阿山廣場 Ason Tole",
+          "type": "sight",
+          "description": [
+            "阿山廣場是加德滿都最古老的市集十字路口，六條街道在此交會，從中世紀起就是印度—西藏商路的轉運站。至今仍是本地人買菜買香料的地方，清晨的人潮幾乎把石板路填滿。",
+            "廣場中央的三重簷金頂小廟供奉安納普爾納女神（Annapurna Ajima）——掌管五穀豐收的女神，路過的攤販會順手拋一枚硬幣、摸一下門框再開始做生意。廟簷上停滿鴿子，銅鈴、薰香和叫賣聲混在一起，是全城最有「老加德滿都」味道的角落。",
+            "建議清晨來：光線斜、人是本地人而不是觀光客，香料攤的薑黃與辣椒堆成小山，最適合拍照也最適合迷路。"
+          ],
+          "links": [
+            {
+              "label": "Ason Tole 地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Ason+Tole+Kathmandu"
+            }
+          ]
+        },
+        {
+          "title": "加德滿都杜巴廣場",
+          "type": "sight",
+          "description": [
+            "從阿山廣場沿老街往南步行十來分鐘，就是加德滿都杜巴廣場（Kathmandu Durbar Square）——馬拉王朝與沙阿王朝的舊王宮建築群，1979 年以「加德滿都谷地」名義列入 UNESCO 世界遺產。",
+            "廣場上最值得留時間的是哈努曼多卡宮（Hanuman Dhoka）、塔萊珠神廟，以及庫瑪麗之家（Kumari Ghar）——尼泊爾「活女神」庫瑪麗的居所，運氣好能在中庭見到她在窗邊短暫現身。2015 年大地震震垮了廣場上多座塔廟，重建至今仍在進行，鷹架本身也成了歷史的一部分。",
+            "外國旅客門票 1,000 盧比，票根可去售票處換多日票。廣場周邊巷弄的銅器街、面具攤比廣場本身更好逛，別急著走。"
+          ],
+          "links": [
+            {
+              "label": "杜巴廣場地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kathmandu+Durbar+Square"
+            },
+            {
+              "label": "UNESCO 加德滿都谷地",
+              "url": "https://whc.unesco.org/en/list/121/"
+            }
+          ]
+        },
+        {
+          "title": "王宮大街與納拉揚希提王宮",
+          "type": "sight",
+          "description": [
+            "順著路標往 Kamalpokhari 方向走上王宮大街（Durbar Marg），街景瞬間換了時代：百年洋樓、銀行、名牌店，路的盡頭就是納拉揚希提王宮博物館（Narayanhiti Palace Museum）。",
+            "這裡曾是沙阿王朝的王宮，2001 年震驚世界的王室滅門事件就發生在宮內；2008 年尼泊爾廢除君主制後，王宮改為博物館開放參觀，臥室、會客廳與事發現場都保留原貌，是理解尼泊爾近代史最直接的一課。",
+            "附近的拉特納公園（Ratna Park）與賈馬爾（Jamal）一帶是本地上班族的日常街區，配著車陣與斑駁招牌看，比任何博物館都真實。"
+          ],
+          "links": [
+            {
+              "label": "王宮博物館地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Narayanhiti+Palace+Museum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dayNumber": 3,
+      "title": "巴格馬提河畔的生與死",
+      "coverImage": "/images/uploads/20240221_111417.jpg",
+      "note": "跨過城東的河橋，往帕舒帕提納特走。這一段路把加德滿都最日常的混亂與最莊嚴的儀式接在一起——垃圾車與火葬台共用同一條河，卻互不打擾。",
+      "stops": [
+        {
+          "title": "跨河而行",
+          "type": "transport",
+          "description": [
+            "從市區搭車或步行往東，會先跨過幾條匯入巴格馬提河（Bagmati）的支流。橋上望下去是最不加修飾的加德滿都：河岸民宅刷成粉的藍的，垃圾車在橋頭卸貨、摩托車擦身而過。",
+            "這段路不是「景點」，卻是理解下一站的前置作業——對印度教徒而言，這條不算清澈的河，是要流向恆河的聖水。"
+          ],
+          "links": []
+        },
+        {
+          "title": "帕舒帕提納特廟 Pashupatinath",
+          "type": "sight",
+          "description": [
+            "帕舒帕提納特廟是尼泊爾最神聖的印度教寺廟，供奉「眾生之主」帕舒帕提——濕婆的化身之一，也是 UNESCO 世界遺產加德滿都谷地的七大遺產點之一。主殿金頂銀門，始建年代可上溯至五世紀，現存主體為十七世紀重建。",
+            "非印度教徒不能進入主殿，但這裡真正震撼的部分本來就在河岸：巴格馬提河兩側的石造河壇（ghat）是公開的火葬場，Arya Ghat 上幾乎日夜都有葬禮進行。家屬繞行、點火、河水帶走灰燼——生死在這裡不是禁忌，而是日常。請保持距離、收起鏡頭直拍的衝動。",
+            "廟區裡還住著一群塗灰畫彩的苦行僧（sadhu），乞討合影是他們的生計之一，拍照前先談好價錢。外國旅客門票 1,000 盧比，從對岸的階梯高處俯瞰整個廟區與河壇，是最好的觀看位置。",
+            "參道兩旁近年整修出整齊的紅磚圍籬與植樹，白色舍利塔在路底探出頭——從入口走到河壇的這段路，本身就值得慢慢走。"
+          ],
+          "links": [
+            {
+              "label": "Pashupatinath 地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Pashupatinath+Temple"
+            },
+            {
+              "label": "UNESCO 遺產介紹",
+              "url": "https://whc.unesco.org/en/list/121/"
+            }
+          ]
+        },
+        {
+          "title": "博達哈大佛塔 Boudhanath",
+          "type": "sight",
+          "description": [
+            "帕舒帕提納特往北兩公里就是博達哈大佛塔（Boudhanath Stupa），兩者常排在同一條路線。這座直徑約百米的白色巨塔是世界最大的佛塔之一，也是藏傳佛教在尼泊爾的信仰中心，塔上四面繪著俯視眾生的「佛眼」。",
+            "傍晚是最好的時段：藏族與雪巴社群的信眾順時針繞塔（kora），轉經筒的聲音連成一片，環塔的屋頂咖啡館點起燈，坐在二樓配一壺甜茶看塔，是加德滿都最平靜的一小時。",
+            "1979 年與加德滿都谷地一同列入世界遺產，2015 年地震後塔頂重修，如今金頂比震前更亮。"
+          ],
+          "links": [
+            {
+              "label": "Boudhanath 地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Boudhanath+Stupa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dayNumber": 4,
+      "title": "雨夜泰美爾：霓虹與濕石板",
+      "coverImage": "/images/uploads/20240222_190130.jpg",
+      "note": "傍晚一場雨把街道洗成鏡面。摩托車燈、銀行招牌、廟簷的輪廓全倒映在柏油路上——加德滿都的夜比白天安靜，卻更上相。",
+      "stops": [
+        {
+          "title": "特里德維街雨夜漫步",
+          "type": "sight",
+          "description": [
+            "泰美爾入口的特里德維街（Tridevi Marg）以路口的三座女神廟得名，白天是車陣與人潮，雨後的夜裡卻換上另一張臉：塔廟的三重簷剪影浸在路燈裡，銀行霓虹與咖啡館的暖光鋪在濕漉漉的路面上。",
+            "這一帶入夜後治安不差，適合散步消化晚餐。喜歡街拍的話，雨後一小時是黃金時段——地面的反光把平凡的街景全變成兩倍。"
+          ],
+          "links": [
+            {
+              "label": "Tridevi Marg 地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tridevi+Marg+Kathmandu"
+            }
+          ]
+        },
+        {
+          "title": "夢想花園 Garden of Dreams",
+          "type": "sight",
+          "description": [
+            "特里德維街旁藏著一座 1920 年代的新古典主義庭園「夢想花園」（Garden of Dreams），是當年菲爾德元帥用賭贏的錢蓋的私人樂園，修復後對外開放。",
+            "六座涼亭對應尼泊爾的六個季節，草坪、噴泉與迴廊把街上的喇叭聲完全隔絕在外。逛完喧鬧的泰美爾進來坐一下午，落差大得像換了一個國家。門票外國旅客約 400 盧比，園內咖啡館 Kaiser Café 適合躲太陽或躲雨。"
+          ],
+          "links": [
+            {
+              "label": "Garden of Dreams 地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Garden+of+Dreams+Kathmandu"
+            }
+          ]
+        },
+        {
+          "title": "尼瓦爾晚餐",
+          "type": "food",
+          "description": [
+            "在尼泊爾吃飯，兩個詞就能走遍全國：momo（餃子）與 dal bhat（豆湯配飯）。momo 蒸的炸的湯的都有，水牛肉餡最經典；dal bhat 則是無限續飯續菜的國民定食，登山嚮導的名言是「Dal bhat power, 24 hour」。",
+            "想吃更講究的，找一間尼瓦爾（Newari）餐廳點 khaja set：打米、烤肉、豆餅、醃菜擺成一盤，配當地小米酒或一杯熱的瑪莎拉奶茶，就是加德滿都谷地原住民族的宴席縮影。"
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "dayNumber": 5,
+      "title": "昌德拉吉里：一根纜索直上雪山視野",
+      "coverImage": "/images/uploads/20240223_092630.jpg",
+      "note": "晴天的早晨最適合上山。纜車十分鐘拔升近一千公尺，艙門一開，整條喜馬拉雅雪鏈橫在眼前——這一天的運氣全用在天氣上了。",
+      "stops": [
+        {
+          "title": "昌德拉吉里纜車",
+          "type": "transport",
+          "description": [
+            "昌德拉吉里纜車（Chandragiri Hills Cable Car）從谷地西南緣的塔恩科特（Thankot）出發，2.5 公里的纜索一路爬升約一千公尺，十分鐘直上海拔 2,551 公尺的巴雷什瓦爾山頂。",
+            "紅色車廂滑出站的那一刻視野就打開了：腳下是攤在盆地裡的加德滿都市區，遠方地平線上，從甘尼許峰（Ganesh Himal）到朗唐（Langtang）的雪峰連成一道白牆。空氣通透的冬季早晨能見度最好，過中午雲就上來了。",
+            "從市區搭車到山下站約 40 分鐘，纜車來回票外國旅客約 22 美元（以官網現場公告為準），假日本地遊客多，平日早上最清爽。"
+          ],
+          "links": [
+            {
+              "label": "官方網站",
+              "url": "https://www.chandragirihills.com/"
+            },
+            {
+              "label": "纜車站地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Chandragiri+Hills+Cable+Car"
+            }
+          ]
+        },
+        {
+          "title": "山頂觀景台與巴雷什瓦爾濕婆廟",
+          "type": "sight",
+          "description": [
+            "山頂平台上立著白色的巴雷什瓦爾濕婆廟（Bhaleshwor Mahadev），傳說與濕婆之妻薩蒂的頭飾有關，是本地人專程上山參拜的對象；觀景台則是旅人的主場——晴天時號稱能從安納普爾納一路望到珠穆朗瑪。",
+            "這座山在尼泊爾歷史上有特殊地位：1743 年，廓爾喀國王普里特維·納拉揚·沙阿正是站在昌德拉吉里山口俯瞰加德滿都谷地，立下統一尼泊爾的野心。今天山口立著他的雕像，視角和兩百八十年前一模一樣。",
+            "山頂設施完整（餐廳、咖啡座、兒童區），冬天山上比市區低五六度，帶件外套。"
+          ],
+          "links": [
+            {
+              "label": "Bhaleshwor 廟地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Bhaleshwor+Mahadev+Temple+Chandragiri"
+            }
+          ]
+        },
+        {
+          "title": "俯瞰整座谷地",
+          "type": "sight",
+          "description": [
+            "下山前在觀景台邊多站十分鐘：加德滿都谷地像一張攤開的電路板，密密麻麻的紅磚樓與藍色屋頂一路鋪到山腳，偶爾一頂佛塔的金尖從屋海裡冒出來。",
+            "在市區走了幾天再從這個高度回看，會突然理解這座城的邏輯——所有的擁擠、噪音與煙塵，都被四面的山穩穩接住。"
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "dayNumber": 6,
+      "title": "谷地餘韻與歸途",
+      "coverImage": "/images/uploads/20240223_104730.jpg",
+      "note": "最後幾天把節奏放慢：回老城補拍幾張照、買齊香料與茶葉，然後把沒走完的地方記進口袋清單——這座谷地一次是走不完的。",
+      "stops": [
+        {
+          "title": "老城的最後一圈",
+          "type": "shopping",
+          "description": [
+            "離開前回阿山市集掃貨：喜馬拉雅岩鹽、瑪莎拉茶粉、整包的孜然與小豆蔻，價錢是機場的幾分之一。泰美爾的羊絨圍巾與手工紙燈籠也值得留行李空間，記得殺價，開價通常有五成水分。"
+          ],
+          "links": []
+        },
+        {
+          "title": "口袋清單：留給下一次",
+          "type": "note",
+          "description": [
+            "斯瓦揚布納特（Swayambhunath）：城西山丘上的千年佛塔，暱稱「猴廟」，365 級陡階換一個佛眼平視整座城的視角。",
+            "帕坦（Patan）：谷地三古都之一，杜巴廣場的金屬工藝與帕坦博物館被公認是全尼泊爾最精緻的一片街區。",
+            "巴克塔普爾（Bhaktapur）：保存最完整的中世紀古城，尼亞塔波拉五重簷神廟與陶器廣場，加上一碗只有這裡有的「國王優格」juju dhau，值得專程住一晚。",
+            "這三個點都在谷地世界遺產的七大遺產點之列，車程都在一小時內——下一趟的行程表其實已經寫好了。"
+          ],
+          "links": [
+            {
+              "label": "谷地遺產總覽",
+              "url": "https://whc.unesco.org/en/list/121/"
+            }
+          ]
+        },
+        {
+          "title": "回程航班",
+          "type": "flight",
+          "description": [
+            "特里布萬機場出境比入境更花時間：行李安檢排隊長，建議提早三小時到。起飛後若坐在左側靠窗（往東飛），雲層之上還能和喜馬拉雅道最後一次別。"
+          ],
+          "links": []
+        }
+      ]
+    }
+  ],
   "homepageSection": "completed",
-  "subtitle": "尼泊爾加德滿都古都薰香",
+  "subtitle": "薰香、鴿群、雨夜霓虹與一整排雪山——冬末加德滿都谷地的十天。",
   "title": "尼泊爾加德滿都古都薰香",
   "id": "nepal-2024",
-  "description": "尼泊爾加德滿都古都薰香",
-  "highlights": []
+  "description": "從阿山老市集的香料攤到帕舒帕提納特的火葬河壇，從雨夜泰美爾的濕石板到昌德拉吉里山頂的喜馬拉雅全景——一本用薰香與塵土寫成的加德滿都日誌，六個章節收錄十天裡最有味道的片段。",
+  "stats": [
+    {
+      "label": "旅程天數",
+      "value": "10"
+    },
+    {
+      "label": "章節",
+      "value": "6"
+    },
+    {
+      "label": "最高點",
+      "value": "2,551 m"
+    }
+  ],
+  "highlights": [
+    "阿山老市集",
+    "帕舒帕提納特河壇",
+    "雨夜泰美爾",
+    "昌德拉吉里雪山全景"
+  ]
 }
