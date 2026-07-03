@@ -1,42 +1,42 @@
 {
-  "order": 2,
+  "order": 3,
   "id": "usa-2025",
-  "status": "planning",
+  "status": "completed",
   "homepageSection": "completed",
-  "country": "United States",
-  "title": "Desert Loop 2025",
-  "subtitle": "Las Vegas, Grand Canyon, Page, Bryce, Zion, and the road between them.",
+  "country": "美國 United States",
+  "title": "Desert Loop：美西沙漠環線",
+  "subtitle": "霓虹的維加斯、六百萬年的大峽谷、砂岩波浪與紅色公路——七天畫完一個沙漠的圓。",
   "dates": "October 19 - October 25, 2025",
   "season": "Autumn",
-  "readTime": "Planning file",
-  "base": "Southwest",
+  "readTime": "12 min read",
+  "base": "Las Vegas 拉斯維加斯",
   "coverImage": "/images/usa/us_great_canyon2025/DSC03737.JPG",
-  "description": "A future road trip designed around long views, sunrise stops, and the contrast between neon nights and red-rock mornings.",
-  "intro": "This one is still open-ended, so the journal frames a route rather than a finished memory. The structure is here; the details will arrive later.",
+  "description": "從拉斯維加斯出發的經典大環線：胡佛水壩、大峽谷南緣、下羚羊峽谷、馬蹄灣、布萊斯的紅色石林、錫安的巨牆峽谷，最後回到霓虹裡收尾。六個章節記下十月沙漠的光、石頭與長路。",
+  "intro": "這條環線的主角是「尺度」：Sphere 用一顆假月亮撐開城市的夜空，大峽谷用六百萬年的切割撐開地平線，羚羊峽谷又把世界壓縮成一條僅容側身的砂岩縫。七天、三個州、一千多公里的路，車窗外的紅色從來沒有重複過。",
   "highlights": [
-    "Road trip pacing",
-    "National parks",
-    "Sunrise viewpoints",
-    "Photo stops"
+    "Sphere 的月球",
+    "大峽谷南緣日落",
+    "下羚羊峽谷光影",
+    "錫安峽谷步道"
   ],
   "stats": [
     {
-      "label": "Days",
+      "label": "旅程天數",
       "value": "7"
     },
     {
-      "label": "Drive style",
-      "value": "Scenic"
+      "label": "橫跨州數",
+      "value": "3"
     },
     {
-      "label": "Status",
-      "value": "Planning"
+      "label": "國家公園",
+      "value": "3"
     }
   ],
   "gallery": [
-    "/images/usa/us_great_canyon2025/DSC03593.JPG",
     "/images/usa/us_great_canyon2025/DSC03737.JPG",
     "/images/usa/us_great_canyon2025/DSC03818.JPG",
+    "/images/usa/us_great_canyon2025/DSC03593.JPG",
     "/images/usa/us_great_canyon2025/DSC03874.JPG",
     "/images/usa/us_great_canyon2025/DSC04040.JPG",
     "/images/usa/us_great_canyon2025/DSC04136.JPG"
@@ -44,199 +44,290 @@
   "days": [
     {
       "dayNumber": 1,
-      "title": "Las Vegas arrival",
+      "title": "降落維加斯：假月亮下的真城市",
       "coverImage": "/images/usa/us_great_canyon2025/DSC03593.JPG",
-      "note": "Land, pick up the car, settle in, and let the city set up the contrast for everything that follows.",
+      "note": "落地、領車、把行李丟進飯店，然後讓拉斯維加斯用它最擅長的方式自我介紹——窗外一顆直徑一百多公尺的月亮正掛在停車場上空。",
       "stops": [
         {
-          "title": "Airport arrival",
+          "title": "機場與租車",
           "type": "transport",
           "description": [
-            "Touch down and reset to road-trip mode."
+            "哈里瑞德國際機場（Harry Reid International）就貼著拉斯維加斯大道南端，落地到領車不用一小時。租車中心在機場旁自成一棟，各家櫃檯集中、接駁車直達——這趟環線的真正主角是車，油箱與胎壓在出發前先照顧好。",
+            "十月的沙漠日夜溫差可達十五度以上，白天短袖、清晨看日出要羽絨——後車廂的行李請按「洋蔥式」打包。"
           ],
           "links": []
         },
         {
-          "title": "Rental car center",
-          "type": "transport",
-          "description": [
-            "Pick up the car and get supplies."
-          ],
-          "links": []
-        },
-        {
-          "title": "First night in Las Vegas",
+          "title": "Sphere 與大道夜景",
           "type": "sight",
           "description": [
-            "A neon-heavy opening scene before the landscape takes over."
+            "Sphere 是 2023 年開幕的球形場館，直徑 157 公尺、外殼包著 120 萬顆 LED，是目前世界最大的球形建築。它最出名的節目其實是「外牆」：入夜後整顆球輪流變成月亮、地球、眨眼的巨眼或一顆籃球，從大道側的飯店窗戶看出去，一輪滿月就這樣停在城市上空——照片裡那顆月球旁邊，還站著 1950 年代就亮到現在的 Battista's 義大利餐廳霓虹招牌，新舊兩代的拉斯維加斯同框。",
+            "想入場的話，館內的沉浸式電影《Postcard from Earth》用 16K 內幕包住觀眾席；只看外牆的話，Venetian 後方停車場與 LINQ 高空觀景輪都是好機位。",
+            "第一晚別排太滿：在大道上散個步，把 Bellagio 噴泉與 Fremont Street 留給回程那晚也不遲。"
           ],
-          "links": []
+          "links": [
+            {
+              "label": "Sphere 官網",
+              "url": "https://www.thesphere.com/"
+            },
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Sphere+Las+Vegas"
+            }
+          ]
         }
       ]
     },
     {
       "dayNumber": 2,
-      "title": "Hoover Dam to Grand Canyon",
+      "title": "胡佛水壩到大峽谷：尺度的第一課",
       "coverImage": "/images/usa/us_great_canyon2025/DSC03737.JPG",
-      "note": "A transition day with a strong sense of scale, moving from engineered spectacle to geological vastness.",
+      "note": "離開霓虹往東南走，這一天從人造的巨大換到地質的巨大——傍晚站上南緣的那一刻，才明白兩者根本不在同一個量級。",
       "stops": [
         {
-          "title": "Hoover Dam",
+          "title": "胡佛水壩",
           "type": "sight",
           "description": [
-            "An early major stop before the road opens wider."
+            "胡佛水壩 1935 年完工，221 公尺高的混凝土拱壩把科羅拉多河攔成米德湖，大蕭條年代動員兩萬多人、五年蓋完，是美國土木的精神圖騰。壩體上的 Art Deco 浮雕、銅門與觀景塔全是當年原裝，站在壩頂一腳內華達、一腳亞利桑那——兩州時區不同，手機會先錯亂給你看。",
+            "自駕停 Mike O'Callaghan–Pat Tillman 紀念橋旁的停車場，走上橋面人行道就能拍到水壩全景。近年米德湖水位偏低，壩壁上白色的「浴缸圈」是氣候變遷最直觀的一堂課。"
           ],
-          "links": []
+          "links": [
+            {
+              "label": "官方資訊",
+              "url": "https://www.usbr.gov/lc/hooverdam/"
+            },
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hoover+Dam"
+            }
+          ]
         },
         {
-          "title": "Route 66 diner break",
+          "title": "66 號公路：塞利格曼小鎮",
           "type": "food",
           "description": [
-            "Classic roadside energy and an easy midday reset."
+            "I-40 途中繞進塞利格曼（Seligman）——66 號公路「母親之路」保存最完整的路段之一，也是《汽車總動員》油車水鎮的靈感來源。老加油站、鏽卡車、奶昔店，整個小鎮就是一座露天的公路博物館，適合下車吃個漢堡、把油門腳放鬆半小時。"
           ],
-          "links": []
+          "links": [
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Seligman+Arizona+Route+66"
+            }
+          ]
         },
         {
-          "title": "Grand Canyon viewpoints",
+          "title": "大峽谷南緣日落",
           "type": "sight",
           "description": [
-            "Late light and the first big canyon overlooks."
+            "大峽谷把地球最近六百萬年的侵蝕史與近二十億年的岩層剖面一次攤開：科羅拉多河在腳下 1,600 公尺深處發亮，對岸的北緣遠在 16 公里外。1919 年設立國家公園、1979 年列入 UNESCO 世界遺產，再多照片都擋不住第一眼站上南緣時的失語。",
+            "傍晚的光是南緣的魔術時刻：Mather Point 人最多、Hopi Point 視野最開，日落前一小時到、待到天全黑，岩層的紅會經歷橘、粉、紫三次換色。十月傍晚緣上接近零度，帶足保暖再看日落。",
+            "門票每車 35 美元（七日有效）；園區內 Village 到各觀景點有免費接駁車，旺季停車位比風景難找得多。"
           ],
-          "links": []
+          "links": [
+            {
+              "label": "NPS 官方頁面",
+              "url": "https://www.nps.gov/grca/"
+            },
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Grand+Canyon+South+Rim"
+            }
+          ]
         }
       ]
     },
     {
       "dayNumber": 3,
-      "title": "Desert View, Antelope Canyon, Page",
+      "title": "佩吉：砂岩的波浪與科羅拉多的髮夾彎",
       "coverImage": "/images/usa/us_great_canyon2025/DSC03818.JPG",
-      "note": "A tighter day of landmark stops, where timing matters a little more and the photography potential climbs quickly.",
+      "note": "沿著沙漠景觀道離開大峽谷，這一天全部交給佩吉小鎮周邊——羚羊峽谷的光、馬蹄灣的彎，和格倫峽谷大壩的鋼拱。",
       "stops": [
         {
-          "title": "Desert View Watchtower",
+          "title": "沙漠景觀塔",
           "type": "sight",
           "description": [
-            "Start with a built frame for the landscape."
+            "離開南緣往東的 Desert View Drive 盡頭立著沙漠觀景塔（Desert View Watchtower）——建築師 Mary Colter 1932 年的作品，模仿普韋布洛原住民的石塔，塔內壁畫出自霍皮族藝術家之手。這裡是園區內唯一能同時看到峽谷、科羅拉多河大轉彎與彩繪沙漠（Painted Desert）的觀景點，作為往佩吉路上的最後一站剛剛好。"
           ],
-          "links": []
+          "links": [
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Desert+View+Watchtower"
+            }
+          ]
         },
         {
-          "title": "Lower Antelope Canyon",
+          "title": "下羚羊峽谷",
           "type": "sight",
           "description": [
-            "The most time-sensitive and guided portion of the route."
+            "羚羊峽谷位在納瓦荷族保留區內，是暴洪千萬年來在砂岩裡鑿出的一條狹縫（slot canyon）：最窄處僅容側身，抬頭是被水流打磨成綢緞的岩壁，正午的光柱從縫頂灌下來，橘、紅、紫在同一面石頭上流動——照片裡那面波浪就是它。",
+            "下羚羊（Lower Antelope）與上羚羊（Upper）是兩段獨立峽谷：下羚羊靠金屬階梯垂直下切、路線更長更彎，人潮略少；上羚羊平緩好走、光束更出名。兩者都必須參加納瓦荷族授權的導覽團，旺季務必提前數週線上訂位。",
+            "峽谷內禁腳架與背包，快門與 ISO 先調好再進場；正因為是暴洪雕出來的，雨季遠處下雨都可能封谷——行程請保留彈性。"
           ],
-          "links": []
+          "links": [
+            {
+              "label": "納瓦荷部落公園官網",
+              "url": "https://navajonationparks.org/"
+            },
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Lower+Antelope+Canyon"
+            }
+          ]
         },
         {
-          "title": "Horseshoe Bend",
+          "title": "馬蹄灣",
           "type": "sight",
           "description": [
-            "A high-impact overlook to close the day."
+            "科羅拉多河在佩吉南郊拐了一個 270 度的髮夾彎，從崖頂俯瞰像一枚嵌在紅岩裡的馬蹄鐵——300 公尺的垂直落差沒有圍欄的路段居多，拍照往後站半步永遠是對的。停車場到崖邊步行約 1.2 公里，日落順光、清晨逆光，各有擁護者。停車費每車 10 美元。"
           ],
-          "links": []
+          "links": [
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Horseshoe+Bend+Page"
+            }
+          ]
+        },
+        {
+          "title": "格倫峽谷大壩與鋼拱橋",
+          "type": "sight",
+          "description": [
+            "佩吉這座小鎮本身就是 1957 年為了蓋格倫峽谷大壩而誕生的工程營地。大壩把科羅拉多河攔成鮑威爾湖——美國第二大人工湖，而壩前那座 1959 年完工的鋼拱橋曾是世界最高的拱橋之一：橋面距河谷 213 公尺，走上人行道往下看，紅色崖壁與藍綠色河水的對比不太真實。Carl Hayden 遊客中心可以近看壩體，也是俯拍鋼拱橋的最佳位置。"
+          ],
+          "links": [
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Glen+Canyon+Dam"
+            }
+          ]
         }
       ]
     },
     {
       "dayNumber": 4,
-      "title": "Bryce Canyon lookouts",
-      "coverImage": "/images/usa/us_great_canyon2025/DSC03874.JPG",
-      "note": "A day for layered amphitheaters, short walks, and changing rock color across the afternoon.",
+      "title": "12 號景觀公路：紅峽谷到布萊斯石林",
+      "coverImage": "/images/usa/us_great_canyon2025/DSC04040.JPG",
+      "note": "跨進猶他，公路本身變成了景點。紅峽谷的拱門隧道像一道任意門——穿過去，世界從沙漠換成松林與石林。",
       "stops": [
         {
-          "title": "Sunrise Point",
+          "title": "紅峽谷拱門隧道",
           "type": "sight",
           "description": [
-            "Start early if the light is the priority."
+            "Scenic Byway 12 是全美最高規格的「All-American Road」之一，進入迪克西國家森林的紅峽谷（Red Canyon）路段時，公路直接從兩座紅砂岩鑿出的拱門下穿過——車頭探進拱圈、對向來車從紅石框裡冒出來的畫面，是這條路的招牌開場。路旁有停車帶，下車拍照比從擋風玻璃裡搶拍從容得多。"
           ],
-          "links": []
+          "links": [
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Red+Canyon+Arch+Scenic+Byway+12"
+            }
+          ]
         },
         {
-          "title": "Bryce Amphitheater",
+          "title": "布萊斯峽谷國家公園",
           "type": "sight",
           "description": [
-            "The visual centerpiece of the day."
+            "布萊斯其實不是峽谷，而是一整片朝東的天然圓形劇場，擠滿了數以千計的岩柱「hoodoo」——石灰岩被凍融循環一根根雕出來的紅色尖塔，密度全球之最。園區海拔 2,400 到 2,700 公尺，十月清晨常常結霜，石林染上一層白霜的樣子反而是攝影師最想抽到的牌。",
+            "經典走法是 Sunrise Point 到 Sunset Point 之間的緣上步道，體力有餘就下切 Navajo Loop 與 Queen's Garden 環線（約 4.6 公里），從谷底仰望 Thor's Hammer 的角度值得每一步爬升。",
+            "門票每車 35 美元。名字叫 Sunrise/Sunset Point，但其實兩個點看日出都好——劇場朝東，日出時整片石林會從內部亮起來。"
           ],
-          "links": []
-        },
-        {
-          "title": "Sunset and Inspiration points",
-          "type": "sight",
-          "description": [
-            "Short moves, big payoff."
-          ],
-          "links": []
+          "links": [
+            {
+              "label": "NPS 官方頁面",
+              "url": "https://www.nps.gov/brca/"
+            },
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Bryce+Canyon+National+Park"
+            }
+          ]
         }
       ]
     },
     {
       "dayNumber": 5,
-      "title": "Zion hiking day",
-      "coverImage": "/images/usa/us_great_canyon2025/DSC04040.JPG",
-      "note": "The most active day in the itinerary, where permits, energy, and weather all matter.",
+      "title": "錫安：從谷底仰望的一天",
+      "coverImage": "/images/usa/us_great_canyon2025/DSC04136.JPG",
+      "note": "前幾天都是站在緣上往下看，錫安把視角整個翻過來——你在谷底，兩側是六七百公尺高的砂岩巨牆，接駁車的廣播是這一天的背景音。",
       "stops": [
         {
-          "title": "Scout Lookout",
-          "type": "sight",
+          "title": "錫安峽谷接駁車",
+          "type": "transport",
           "description": [
-            "A strong goal even without pushing farther."
+            "錫安是全美人流最高的國家公園之一，峽谷主線（Zion Canyon Scenic Drive）自 2000 年起旺季禁止自駕，一律從遊客中心搭免費接駁車進谷，終點站 Temple of Sinawava 就是維京河步道的起點。車身上印著「Virgin River on a Normal Day」的圖樣，班次密集到不用看時刻表——但傍晚的末班車時間要記牢，錯過就是十幾公里的夜路。",
+            "把車停在遊客中心或鎮上 Springdale 再轉乘，是這個公園唯一正確的打開方式。"
           ],
-          "links": []
+          "links": [
+            {
+              "label": "NPS 接駁車資訊",
+              "url": "https://www.nps.gov/zion/planyourvisit/zion-canyon-shuttle-system.htm"
+            }
+          ]
         },
         {
-          "title": "Angels Landing decision point",
+          "title": "西緣步道與 Scout Lookout",
           "type": "sight",
           "description": [
-            "Keep flexible depending on permits and comfort."
+            "從 The Grove 站起登的西緣步道（West Rim Trail）是錫安的招牌爬升：先沿著砂岩壁的之字坡上切，鑽過 Refrigerator Canyon 的陰涼段，再攻上 21 個連續髮夾彎的 Walter's Wiggles，抵達 Scout Lookout——來回約 6.5 公里、爬升 300 多公尺，峽谷在腳下對摺展開。",
+            "從 Scout Lookout 再往前，就是沿著刀脊扶鎖鏈上攀的天使降臨（Angels Landing）最後一段；2022 年起需要事前抽籤取得許可證，沒抽到也不必勉強——Scout Lookout 本身的視野已經值回全部的之字彎。",
+            "門票每車 35 美元。峽谷內午後才曬得到太陽，秋天上午出發體感最舒服；水要帶夠，谷內補水點有限。"
           ],
-          "links": []
+          "links": [
+            {
+              "label": "NPS 官方頁面",
+              "url": "https://www.nps.gov/zion/"
+            },
+            {
+              "label": "Angels Landing 抽籤",
+              "url": "https://www.nps.gov/zion/planyourvisit/angels-landing-hiking-permits.htm"
+            }
+          ]
+        },
+        {
+          "title": "維京河與 Riverside Walk",
+          "type": "sight",
+          "description": [
+            "體力用完之後，把最後的傍晚留給終點站的 Riverside Walk：平緩的 3.5 公里往返沿著維京河深入峽谷，走到步道盡頭就是著名的 The Narrows 涉水路線入口——巨牆在頭頂收攏到只剩一線天。十月河水已經冰冷，沒租防水裝備就在岸上看人下水，也是一種節目。"
+          ],
+          "links": [
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Riverside+Walk+Zion"
+            }
+          ]
         }
       ]
     },
     {
       "dayNumber": 6,
-      "title": "Return drive with room for detours",
-      "coverImage": "/images/usa/us_great_canyon2025/DSC04136.JPG",
-      "note": "A buffer day that works best when it stays a little loose. Scenic pull-offs should be allowed to win.",
+      "title": "長路歸途：把圓畫完",
+      "coverImage": "/images/usa/us_great_canyon2025/DSC04268.JPG",
+      "note": "「Last down canyon bus」——接駁車頭上的跑馬燈剛好替這趟旅程下了標題。剩下的就是把車開回霓虹裡，讓沙漠在後照鏡裡慢慢變小。",
       "stops": [
         {
-          "title": "Drive back toward Las Vegas",
+          "title": "I-15 穿越亞利桑那走廊",
           "type": "transport",
           "description": [
-            "A long road segment with potential side stops."
+            "從錫安回維加斯走 I-15 約兩個半小時，途中穿過亞利桑那州西北角的 Virgin River Gorge 路段——州際公路直接鑿進峽谷裡蜿蜒，是全美造價最高的鄉間州際路段之一，也是這趟環線最後一段免費的風景。"
           ],
           "links": []
         },
         {
-          "title": "Flexible photo stops",
+          "title": "維加斯最後一夜",
           "type": "sight",
           "description": [
-            "Use the strongest light and the strongest feeling, not just the list."
+            "把還車前的最後一晚還給城市：Bellagio 噴泉整點的水舞、Fremont Street 老城區的天幕燈光秀，或只是把大道從南走到北，讓一週份的紅色岩石在霓虹裡沉澱。在沙漠裡看過真正的星空之後，這座城市的燈看起來會不太一樣——這大概就是環線要繞一圈回原點的意義。"
           ],
-          "links": []
-        }
-      ]
-    },
-    {
-      "dayNumber": 7,
-      "title": "Departure day",
-      "coverImage": "/images/usa/us_great_canyon2025/DSC04268.JPG",
-      "note": "Return the car, leave margin for the airport, and let the trip end cleanly.",
-      "stops": [
-        {
-          "title": "Rental car return",
-          "type": "transport",
-          "description": [
-            "Refuel, return, and move light again."
-          ],
-          "links": []
+          "links": [
+            {
+              "label": "Fremont Street 地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Fremont+Street+Experience+Las+Vegas"
+            }
+          ]
         },
         {
-          "title": "Flight home",
-          "type": "transport",
+          "title": "還車與回程航班",
+          "type": "flight",
           "description": [
-            "Trip archive begins here."
+            "還車前在機場外圍加滿油（機場內油價是懲罰性的），儀表板上多出來的一千多公里，就是這七天的收據。"
           ],
           "links": []
         }

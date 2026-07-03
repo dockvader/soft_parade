@@ -1,51 +1,57 @@
 {
-  "readTime": "8 min read",
+  "readTime": "12 min read",
   "season": "Summer",
-  "coverImage": "/images/japan/jp_tokyo2023/20230711_193547.jpg",
+  "coverImage": "/images/japan/jp_tokyo2023/20230715_044252.jpg",
   "dates": "July 11 - July 17, 2023",
-  "intro": "This journal leans into texture over checklist travel. It keeps the stations, streets, snacks, and detours that gave the trip its mood.",
+  "intro": "這趟七月的旅程繞著東京畫了一個圓：從下町龜有的漫畫銅像出發，南下鎌倉看大佛、在江之島等富士山的夕陽剪影，再一路往山腳移動，在富士吉田的清晨四點半按下這趟旅程最早的一次快門。",
   "order": 1,
-  "base": "Tokyo",
+  "base": "Tokyo 東京（龜有）",
   "gallery": [
-    "/images/japan/jp_tokyo2023/20230711_193547.jpg",
+    "/images/japan/jp_tokyo2023/20230715_044252.jpg",
     "/images/japan/jp_tokyo2023/20230712_130126.jpg",
     "/images/japan/jp_tokyo2023/20230712_150049.jpg",
     "/images/japan/jp_tokyo2023/20230712_192601.jpg",
-    "/images/japan/jp_tokyo2023/20230712_194628.jpg",
-    "/images/japan/jp_tokyo2023/20230714_181003.jpg"
+    "/images/japan/jp_tokyo2023/20230717_105803.jpg",
+    "/images/japan/jp_tokyo2023/20230711_193547.jpg"
   ],
   "status": "completed",
-  "country": "Japan",
+  "country": "日本 Japan",
   "days": [
     {
       "dayNumber": 1,
-      "title": "Arrival, Ueno, and the first long walk",
+      "title": "降落東京，龜有初夜",
       "coverImage": "/images/japan/jp_tokyo2023/20230711_193547.jpg",
-      "note": "The trip begins in transit and settles into the city slowly, with enough room to notice signage, station light, and the feeling of finally being here. ",
+      "note": "旅程從機場快線的車窗開始，在龜有站前的銅像前正式開場。把住宿設在下町，等於把整趟旅行的基調調成了生活感。",
       "stops": [
         {
-          "title": "Narita to the city",
+          "title": "成田入境與進城",
           "type": "transport",
           "description": [
-            "Airport transfer, ticket counters, and the first train rhythm of the trip.",
-            "A good first-day reminder that Tokyo reveals itself through movement as much as destinations."
+            "成田機場到市區的第一課是選車：Skyliner 快但要到上野轉車、成田特快直達山手線西側、京成本線最便宜但站站停。往龜有方向走京成線轉常磐線其實最順，行李不重的話是聰明選擇。",
+            "第一天別排行程——把交通卡儲好值、把晚餐交給車站旁的商店街，時差和悶熱的七月空氣自然會把人放慢。"
           ],
           "links": []
         },
         {
-          "title": "Ueno arrival",
+          "title": "龜有：兩津勘吉的地盤",
           "type": "sight",
           "description": [
-            "Bags down, camera up, and the neighborhood becomes the first chapter.",
-            "Street edges, station exits, and convenience store light set the tone for the week."
+            "龜有是《烏龍派出所》（こちら葛飾区亀有公園前派出所）的故事舞台——秋本治從 1976 年連載到 2016 年整整四十年，金氏世界紀錄認證的最長壽連載漫畫。車站南北口周邊散布著十多座角色銅像，兩津勘吉在站前咧嘴迎接每一班電車。",
+            "跟著車站拿得到的銅像地圖走一圈，順便逛龜有的商店街：這裡沒有觀光客，只有晚歸的上班族、補習完的學生和便當店的蒸氣。作為東京的第一印象，下町比澀谷誠實得多。",
+            "銅像夜裡打燈，拍照最好的時段反而是晚上——招牌的光把青銅照出一層暖色。"
           ],
-          "links": []
+          "links": [
+            {
+              "label": "龜有站地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kameari+Station+Tokyo"
+            }
+          ]
         },
         {
-          "title": "Evening walk",
-          "type": "sight",
+          "title": "便利商店的第一餐",
+          "type": "food",
           "description": [
-            "No agenda beyond staying outside long enough to let the city feel familiar."
+            "抵達日的晚餐交給便利商店是日本旅行的正確開場：飯糰、炸雞、冰咖啡，在飯店窗邊配著陌生的街景吃完。接下來一週的每一餐都會比這頓好，但沒有一頓比這頓更有「終於到了」的實感。"
           ],
           "links": []
         }
@@ -53,63 +59,110 @@
     },
     {
       "dayNumber": 2,
-      "title": "Day trip energy and coastal air",
+      "title": "鎌倉與江之島：古都、大佛與海",
       "coverImage": "/images/japan/jp_tokyo2023/20230712_130126.jpg",
-      "note": "A shift away from the dense city grid. The pace opens up and the day reads more like a sequence of scenes than a route.",
+      "note": "一天之內從幕府古都走到海島燈塔。這條路線是東京近郊一日遊的經典解，密度高到像把一整趟小旅行壓進十二個小時。",
       "stops": [
         {
-          "title": "Train out of Tokyo",
-          "type": "transport",
-          "description": [
-            "Early departure, quieter platforms, and the pleasure of watching the city loosen at the edges."
-          ],
-          "links": []
-        },
-        {
-          "title": "Temple and town streets",
+          "title": "鶴岡八幡宮",
           "type": "sight",
           "description": [
-            "A slower architectural rhythm, smaller roads, and places that reward lingering."
+            "鶴岡八幡宮是鎌倉的精神中心：1063 年由源賴義創建，1180 年源賴朝遷至現址，之後隨著鎌倉幕府成為武家政權的守護神社。從車站沿著若宮大路的參道「段葛」一路走上大石段，朱紅的樓門在樹海裡張開——正是照片裡那個藍天配丹漆的畫面。",
+            "本宮供奉八幡神（應神天皇），是源氏一族的氏神；石階旁曾立著千年大銀杏，2010 年被強風吹倒後，從殘株冒出的新芽如今還在長。舞殿、源氏池與整條參道都值得放慢腳步。",
+            "境內免費，清晨與上午人最少。從鎌倉站步行約 10 分鐘，建議把它排成鎌倉的第一站，再一路往大佛方向散步。"
+          ],
+          "links": [
+            {
+              "label": "官方網站",
+              "url": "https://www.hachimangu.or.jp/"
+            },
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tsurugaoka+Hachimangu"
+            }
+          ]
+        },
+        {
+          "title": "高德院・鎌倉大佛",
+          "type": "sight",
+          "description": [
+            "鎌倉大佛是一尊高 11.3 公尺、重約 121 噸的青銅阿彌陀如來坐像，鑄造於 1252 年前後，是鎌倉唯一的國寶佛像。它原本坐在大佛殿裡，殿宇在十五世紀末的海嘯與地震中損毀後再未重建——於是這尊佛在山風海雨裡露天打坐了五百多年。",
+            "近看最動人的是細節：微微前傾的頭、承受了七個世紀風化的青綠銅鏽，以及背後兩扇像窗一樣的開口。花 50 日圓可以鑽進佛像內部，從裡面看十三世紀的鑄接工法，像站在一口倒扣的鐘裡。",
+            "門票 300 日圓。從鶴岡八幡宮步行約 25 分鐘，或搭江之電到長谷站再走 7 分鐘；順路的長谷寺也值得加訪。"
+          ],
+          "links": [
+            {
+              "label": "高德院官網",
+              "url": "https://www.kotoku-in.jp/"
+            },
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kotoku-in+Great+Buddha+Kamakura"
+            }
+          ]
+        },
+        {
+          "title": "江之電湘南海岸線",
+          "type": "transport",
+          "description": [
+            "從長谷往江之島的這段江之電是全日本最上鏡的通勤鐵道：綠奶油色的小電車貼著民宅屋簷鑽行，到鎌倉高校前一帶突然把整片湘南的海攤在車窗外。《灌籃高手》平交道就在鎌倉高校前站旁，想拍照的話做好排隊的心理準備。"
           ],
           "links": []
         },
         {
-          "title": "Lunch stop",
-          "type": "food",
+          "title": "江之島與 Sea Candle 的富士山夕景",
+          "type": "sight",
           "description": [
-            "A reset in the middle of the day, shaped more by atmosphere than efficiency."
+            "江之島是一座用橋連著湘南海岸的小島，島上的江島神社供奉弁財天，從參道、青銅鳥居到山頂庭園一路都是階梯（有付費電扶梯「江之島 ESCAR」可以偷懶）。",
+            "山頂的展望燈塔 Sea Candle 高約 60 公尺，是這一天的壓軸：運氣好的傍晚，能看到富士山在相模灣對岸的雲隙中露出剪影，夕燒把稜線描成一道橘紅——正是這趟旅程拍到的畫面。天黑後燈塔亮起藍色燈飾，塔身像一支透明的螺旋蠟燭。",
+            "Sea Candle 門票 500 日圓（與植物園 Samuel Cocking Garden 通用票），日落前一小時上塔最划算，一次收齊白天、夕燒與夜景。"
           ],
-          "links": []
+          "links": [
+            {
+              "label": "江之島 Sea Candle",
+              "url": "https://enoshima-seacandle.com/"
+            },
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Enoshima+Sea+Candle"
+            }
+          ]
         }
       ]
     },
     {
       "dayNumber": 3,
-      "title": "Coffee, culture, and browsing",
-      "coverImage": "/images/japan/jp_tokyo2023/20230712_150049.jpg",
-      "note": "A day built from interior spaces, favorite corners, and the kind of stops that make a city feel personal.",
+      "title": "移動日：往富士山腳去",
+      "coverImage": "/images/japan/jp_tokyo2023/20230714_181003.jpg",
+      "note": "在東京留了一天空白之後，行李上肩往山梨移動。巴士駛出都心的水泥峽谷，富士山在擋風玻璃的遠方越長越大。",
       "stops": [
         {
-          "title": "Morning cafe",
-          "type": "food",
+          "title": "高速巴士到富士吉田",
+          "type": "transport",
           "description": [
-            "Coffee first, then a soft start into the day."
+            "從新宿的巴士轉運站（バスタ新宿）搭高速巴士到富士山站／河口湖站約兩小時，是往富士五湖最省事的走法，比鐵路便宜也不用轉車。挑右側靠窗的位子，過了大月之後富士山會開始在窗外排練它的出場。"
           ],
           "links": []
         },
         {
-          "title": "Museum or gallery window",
+          "title": "富士山下宮小室淺間神社",
           "type": "sight",
           "description": [
-            "A concentrated pause before slipping back into the street."
+            "富士吉田市區裡的這座「下宮」小室淺間神社創建於 807 年，供奉木花開耶姬——淺間信仰裡鎮住富士山火氣的女神。相對於觀光客擠滿的北口本宮，這裡幾乎只有本地人：傍晚的參道安靜得能聽到注連繩上鈴鐺被風碰響。",
+            "神社最特別的是境內養著兩匹神馬，以及每年九月流鏑馬祭典後用馬蹄痕占卜吉凶的古俗。紅色大鳥居配上老杉的畫面，是富士吉田散步途中最值得繞進來的一段。"
           ],
-          "links": []
+          "links": [
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Omuro+Sengen+Shrine+Fujiyoshida"
+            }
+          ]
         },
         {
-          "title": "Anime and bookstore browsing",
-          "type": "shopping",
+          "title": "山腳的旅宿",
+          "type": "hotel",
           "description": [
-            "The pleasure of shelves, packaging, and discovering what catches the eye."
+            "住在富士吉田市區而不是河口湖畔，是這趟行程做對的決定之一：便宜、安靜，而且富士山就掛在商店街的正上方。挑一間頂樓或高樓層朝南的房間，隔天清晨的那場戲就在窗外上演。"
           ],
           "links": []
         }
@@ -117,23 +170,48 @@
     },
     {
       "dayNumber": 4,
-      "title": "Weather turns and the city glows",
-      "coverImage": "/images/japan/jp_tokyo2023/20230712_192601.jpg",
-      "note": "The visual language changes once the light drops. Reflections, signage, and storefront spill become the subject.",
+      "title": "清晨四點半的富士山，與尖叫的一天",
+      "coverImage": "/images/japan/jp_tokyo2023/20230715_044252.jpg",
+      "note": "鬧鐘設在四點二十。天剛要亮，本町通的路燈還亮著，富士山把雲層當圍巾纏在肩上——這一張是整趟旅程的封面。",
       "stops": [
         {
-          "title": "Train interchange",
-          "type": "transport",
-          "description": [
-            "A small transit puzzle, solved one sign and one escalator at a time."
-          ],
-          "links": []
-        },
-        {
-          "title": "Street photography loop",
+          "title": "本町通商店街的富士山",
           "type": "sight",
           "description": [
-            "Rain or shine, the city is at its best when it reflects itself back."
+            "富士吉田本町通（本町二丁目商店街）是近年被照片捧紅的取景地：一條昭和感的老商店街筆直對著富士山，電線、招牌、斑馬線全部成為前景，山體大得不合理地堵在街的盡頭。",
+            "要拍到乾淨的畫面，清晨是唯一解——四點半到五點之間沒有車流、沒有人潮，夏天的富士山在晨光裡從藍黑色慢慢顯影。白天這裡就是一條普通的生活街道，拍照請讓行車輛、不要站在馬路中央不動。",
+            "七月中旬的山頂已經幾乎無雪，雲繞在半山腰的樣子反而比雪頂更有夏天的表情。"
+          ],
+          "links": [
+            {
+              "label": "本町通地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Honcho+Street+Fujiyoshida"
+            }
+          ]
+        },
+        {
+          "title": "富士急樂園",
+          "type": "sight",
+          "description": [
+            "富士急樂園（Fuji-Q Highland）開在富士山正下方，是雲霄飛車迷的聖地：FUJIYAMA 曾是世界最高最快的雲霄飛車（79 公尺、130 km/h），ええじゃないか的迴轉數、高飛車 121 度的俯衝角都拿過金氏紀錄。在最高點被甩出去的那一瞬間，富士山就在視野正前方——大概是全世界景觀最好的尖叫。",
+            "入園免費、設施單買或購一日券；熱門飛車排隊動輒一兩小時，開園衝第一輪最省時。抬頭看不到富士山的陰天，刺激度不減，但少了一半的戲。"
+          ],
+          "links": [
+            {
+              "label": "富士急樂園官網",
+              "url": "https://www.fujiq.jp/"
+            },
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Fuji-Q+Highland"
+            }
+          ]
+        },
+        {
+          "title": "路邊的貓",
+          "type": "note",
+          "description": [
+            "回程路上一隻虎斑白襪貓在門墊上翻身討摸，行程表上沒有牠，但相簿裡有。旅行裡最好的部分常常都是這種計畫外的三分鐘。"
           ],
           "links": []
         }
@@ -141,23 +219,24 @@
     },
     {
       "dayNumber": 5,
-      "title": "Viewpoints and playful detours",
-      "coverImage": "/images/japan/jp_tokyo2023/20230712_194628.jpg",
-      "note": "The day moves between elevated views and very grounded details, which is part of Tokyo's charm.",
+      "title": "回到東京：拉麵與下町的胃",
+      "coverImage": "/images/japan/jp_tokyo2023/20230716_131419.jpg",
+      "note": "從山腳回到都心，把這一天交給城市的日常：商店街、書店、電器行，以及一碗端上來就知道不會錯的拉麵。",
       "stops": [
         {
-          "title": "Observation point",
-          "type": "sight",
+          "title": "一碗正經的拉麵",
+          "type": "food",
           "description": [
-            "Big-picture city scale, then back down into neighborhood texture."
+            "在日本吃拉麵的儀式感從門口的食券機開始：投幣、按鍵、把票遞給吧台，然後看師傅在蒸氣裡組裝你的那一碗。這天的午餐是豚骨系——白濁湯頭、兩枚溏心蛋、炙燒過的叉燒，海苔立在碗邊像一圈黑色的旗。",
+            "點餐小抄：麵的硬度（かため＝偏硬）、湯的濃度、蔥多蔥少都可以客製；桌上的無料配菜（辣高菜、紅薑、蒜泥）是豚骨拉麵的標準配備，第二輪再加才是行家吃法。"
           ],
           "links": []
         },
         {
-          "title": "Arcade or shopping floor",
+          "title": "下町商店街漫遊",
           "type": "shopping",
           "description": [
-            "Bright interiors and a little controlled chaos."
+            "下午留給沒有目的的逛：百元店補旅行消耗品、書店翻不會買的雜誌、電器行試戴不需要的耳機。東京最好逛的從來不是觀光景點，而是這些讓本地人過日子的地方——它們不為你表演，所以最真。"
           ],
           "links": []
         }
@@ -165,71 +244,43 @@
     },
     {
       "dayNumber": 6,
-      "title": "A quieter morning, a brighter night",
-      "coverImage": "/images/japan/jp_tokyo2023/20230714_181003.jpg",
-      "note": "The trip is settled enough now that the day can stay open. Those are often the best travel days.",
-      "stops": [
-        {
-          "title": "Neighborhood breakfast",
-          "type": "food",
-          "description": [
-            "Simple, local, and easy to remember later."
-          ],
-          "links": []
-        },
-        {
-          "title": "Free-form wandering",
-          "type": "sight",
-          "description": [
-            "The route matters less than the mood, so the camera leads."
-          ],
-          "links": []
-        }
-      ]
-    },
-    {
-      "dayNumber": 7,
-      "title": "Shopping streets and final pickups",
+      "title": "勝鬨橋、築地，與龜有的道別",
       "coverImage": "/images/japan/jp_tokyo2023/20230717_105803.jpg",
-      "note": "A practical day that still leaves room for atmosphere, people-watching, and one more favorite stop.",
+      "note": "最後一天沿著隅田川收尾。鉚釘鋼橋、市場的炭火香，晚上回到龜有站前，跟兩津勘吉說再見。",
       "stops": [
         {
-          "title": "Department store circuit",
-          "type": "shopping",
-          "description": [
-            "Last souvenirs, last impulse buys, last chances to compare floors."
-          ],
-          "links": []
-        },
-        {
-          "title": "Dinner reservation",
-          "type": "food",
-          "description": [
-            "A more intentional meal to anchor the final evening."
-          ],
-          "links": []
-        }
-      ]
-    },
-    {
-      "dayNumber": 8,
-      "title": "Final walk and departure",
-      "coverImage": "/images/japan/jp_tokyo2023/20230717_211703.jpg",
-      "note": "The last day keeps things light: one more walk, one more photo, then the long pull back toward the airport.",
-      "stops": [
-        {
-          "title": "Morning loop",
+          "title": "勝鬨橋",
           "type": "sight",
           "description": [
-            "A farewell lap through a now-familiar patch of city."
+            "勝鬨橋橫跨隅田川河口，1940 年完工，是日本罕見的雙葉跳開橋——橋面中央曾經可以像翅膀一樣向上打開，讓大型船隻通過。隨著水運沒落，1970 年最後一次開橋之後就永遠合上了，但開合機械至今保留在橋墩裡，橋畔的資料館可以看到當年的運轉紀錄。",
+            "灰藍色的鋼拱、滿身鉚釘、厚重的石造橋墩，配上對岸勝鬨與月島的高層住宅群，是東京少數能一眼看盡「昭和工業浪漫」的地方。從築地步行過橋，晴天時遠處還能瞄到晴空塔的尖。"
           ],
-          "links": []
+          "links": [
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Kachidoki+Bridge+Tokyo"
+            }
+          ]
         },
         {
-          "title": "Airport return",
-          "type": "transport",
+          "title": "築地場外市場",
+          "type": "food",
           "description": [
-            "The trip ends the same way it started: in motion."
+            "場內市場 2018 年搬去豐洲之後，築地場外市場反而更純粹地留給了吃：玉子燒串、烤扇貝、鮪魚丼、現剖海膽，一條街從早上七點吃到中午收攤。內行走法是避開主通道最擠的店，往巷子裡找排隊的是本地人的那幾攤。",
+            "多數店家下午兩三點就打烊，這裡是早午餐的行程，不是晚餐的。"
+          ],
+          "links": [
+            {
+              "label": "地圖",
+              "url": "https://www.google.com/maps/search/?api=1&query=Tsukiji+Outer+Market"
+            }
+          ]
+        },
+        {
+          "title": "龜有站前的最後一晚",
+          "type": "sight",
+          "description": [
+            "晚上回到龜有，站前的兩津勘吉像在商店街的燈牌下比著跟一週前一模一樣的手勢。旅程用同一座銅像開場又收尾，像漫畫的最後一格。明天一早的機場快線，就從這個月台出發。"
           ],
           "links": []
         }
@@ -237,28 +288,28 @@
     }
   ],
   "homepageSection": "completed",
-  "subtitle": "Neon streets, quiet mornings, and a week of wandering with no hard edges.",
-  "title": "Tokyo After Dark",
+  "subtitle": "從龜有的兩津像到富士山腳的清晨四點半——繞著東京畫一個圓的盛夏七日。",
+  "title": "東京盛夏七日：下町、鎌倉與富士",
   "id": "tokyo",
-  "description": "A photo-driven city diary stitched together from late-night arrivals, neighborhood walks, train rides, and the small rituals that make Tokyo feel cinematic.",
+  "description": "一本從下町出發的東京日誌：龜有的漫畫銅像、鶴岡八幡宮的朱紅樓門、露天打坐七百年的鎌倉大佛、江之島夕燒裡的富士山剪影，以及富士吉田清晨四點半的那一條商店街。六個章節，把 2023 年七月的一週收進來。",
   "stats": [
     {
-      "label": "Days",
-      "value": "8"
+      "label": "旅程天數",
+      "value": "7"
     },
     {
-      "label": "Moments kept",
-      "value": "24"
+      "label": "章節",
+      "value": "6"
     },
     {
-      "label": "Pace",
-      "value": "Slow"
+      "label": "最早的快門",
+      "value": "04:42"
     }
   ],
   "highlights": [
-    "Night arrivals",
-    "Neighborhood wandering",
-    "Transit rhythm",
-    "Street photography"
+    "龜有兩津勘吉像",
+    "鎌倉大佛",
+    "江之島夕燒富士",
+    "本町通清晨富士山"
   ]
 }
