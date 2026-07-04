@@ -1,6 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import { journals } from '../data/journals'
+import { notes } from '../data/notes'
 import { site } from '../data/site'
 import { RouterLink } from 'vue-router'
 
@@ -67,12 +68,6 @@ const heroStory = computed(() => completedTrips.value[0] || journals[0])
                 <li v-for="item in site.changeLogItems" :key="item">{{ item }}</li>
               </ul>
             </div>
-            <div class="ad-slot rounded-[28px] p-6">
-              <p class="text-xs uppercase tracking-[0.35em] text-[var(--color-gold)] mb-3">{{ site.homeAdTitle }}</p>
-              <p class="text-white/65 leading-7">
-                {{ site.homeAdBody }}
-              </p>
-            </div>
           </div>
         </div>
       </div>
@@ -136,7 +131,36 @@ const heroStory = computed(() => completedTrips.value[0] || journals[0])
       </div>
     </section>
 
-    <section id="archive" class="max-w-7xl mx-auto px-5 md:px-10 py-20 md:py-28">
+    <section v-if="notes.length" id="notes" class="max-w-7xl mx-auto px-5 md:px-10 py-20 md:py-28">
+      <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
+        <div>
+          <p class="text-xs uppercase tracking-[0.38em] text-[var(--color-gold)] mb-4">Notes</p>
+          <h2 class="font-heading text-4xl md:text-6xl">雜記</h2>
+        </div>
+        <p class="max-w-xl text-white/60 leading-7">
+          旅行以外的隨手寫。不成篇章，想到什麼記什麼。
+        </p>
+      </div>
+
+      <div class="grid gap-5 md:grid-cols-2">
+        <RouterLink
+          v-for="note in notes"
+          :key="note.id"
+          :to="{ name: 'Note', params: { id: note.id } }"
+          class="group editorial-card rounded-[28px] p-6 md:p-7 hover:-translate-y-1 transition-transform"
+          data-aos="fade-up"
+        >
+          <div class="text-[10px] md:text-xs uppercase tracking-[0.32em] text-white/45">{{ note.dateLabel }}</div>
+          <h3 class="font-heading text-3xl md:text-4xl leading-tight mt-4 group-hover:text-[var(--color-ink)] transition-colors">{{ note.title }}</h3>
+          <p v-if="note.description" class="text-white/60 leading-7 mt-4">{{ note.description }}</p>
+          <div class="mt-6 text-xs uppercase tracking-[0.28em] text-[var(--color-gold)] group-hover:translate-x-1 transition-transform">
+            Read Note ->
+          </div>
+        </RouterLink>
+      </div>
+    </section>
+
+    <section v-if="plannedTrips.length" id="archive" class="max-w-7xl mx-auto px-5 md:px-10 py-20 md:py-28">
       <div class="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] items-start">
         <div>
           <p class="text-xs uppercase tracking-[0.38em] text-[var(--color-gold)] mb-4">{{ site.archiveEyebrow }}</p>

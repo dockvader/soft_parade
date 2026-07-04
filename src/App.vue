@@ -62,8 +62,8 @@ onUnmounted(() => {
 
       <div class="hidden md:flex items-center gap-8 text-xs uppercase tracking-[0.28em] text-white/70">
         <a href="/#stories" class="hover:text-white transition-colors">{{ navStoriesLabel }}</a>
-        <a href="/#archive" class="hover:text-white transition-colors">{{ navArchiveLabel }}</a>
-        <a href="/#ads" class="hover:text-white transition-colors">{{ navAdvertisingLabel }}</a>
+        <a href="/#notes" class="hover:text-white transition-colors">{{ navArchiveLabel }}</a>
+        <RouterLink to="/about" class="hover:text-white transition-colors">{{ navAdvertisingLabel }}</RouterLink>
         <a href="/#contact" class="hover:text-white transition-colors">{{ navContactLabel }}</a>
       </div>
 
@@ -104,12 +104,19 @@ onUnmounted(() => {
           {{ navStoriesLabel.toUpperCase() }}
         </a>
         <a
-          href="/#archive"
+          href="/#notes"
           class="text-4xl md:text-6xl font-heading tracking-[0.08em] hover:text-[var(--color-gold)] transition-colors"
           @click="isMenuOpen = false"
         >
           {{ navArchiveLabel.toUpperCase() }}
         </a>
+        <RouterLink
+          to="/about"
+          class="text-lg uppercase tracking-[0.35em] text-white/60 hover:text-white transition-colors"
+          @click="isMenuOpen = false"
+        >
+          {{ navAdvertisingLabel.toUpperCase() }}
+        </RouterLink>
         <a
           href="/#contact"
           class="text-lg uppercase tracking-[0.35em] text-white/60 hover:text-white transition-colors"
@@ -179,11 +186,12 @@ onUnmounted(() => {
             </button>
           </form>
         </div>
-        <div id="ads">
+        <div>
           <p class="text-xs uppercase tracking-[0.35em] text-white/45 mb-4">{{ site.footerAdTitle }}</p>
-          <div class="rounded-[28px] border border-dashed border-[var(--color-gold-soft)] bg-[rgba(255,255,255,0.03)] p-5 text-sm text-white/60 leading-6">
-            {{ site.footerAdBody }}
-          </div>
+          <p class="text-sm text-white/60 leading-6">{{ site.footerAdBody }}</p>
+          <RouterLink to="/about" class="mt-4 inline-block text-xs uppercase tracking-[0.28em] text-white/45 hover:text-white transition-colors border-b border-transparent hover:border-white pb-1">
+            About & Privacy ->
+          </RouterLink>
         </div>
       </div>
       <div class="max-w-7xl mx-auto mt-12 pt-6 border-t border-white/10 text-xs uppercase tracking-[0.28em] text-white/35">

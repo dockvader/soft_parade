@@ -57,6 +57,24 @@ collections:
           - { label: "Footer Ad Title", name: "footerAdTitle", widget: "string" }
           - { label: "Footer Ad Body", name: "footerAdBody", widget: "text" }
           - { label: "Footer Copyright", name: "footerCopyright", widget: "string" }
+          - { label: "About Title", name: "aboutTitle", widget: "string" }
+          - { label: "About Body", name: "aboutBody", widget: "text" }
+
+  - label: "Notes"
+    name: "notes"
+    folder: "content/notes"
+    create: true
+    format: "frontmatter"
+    extension: "md"
+    slug: "{{fields.id}}"
+    identifier_field: "title"
+    summary: "{{fields.title}}"
+    fields:
+      - { label: "ID", name: "id", widget: "string", hint: "網址用的英文代稱，例如 airport-sandwich" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
 
   - label: "Journals"
     name: "journals"

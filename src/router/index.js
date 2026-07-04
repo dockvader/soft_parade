@@ -16,6 +16,16 @@ const routes = [
         path: '/journal/:id/day/:day',
         name: 'Day',
         component: () => import('../views/DayView.vue')
+    },
+    {
+        path: '/notes/:id',
+        name: 'Note',
+        component: () => import('../views/NoteView.vue')
+    },
+    {
+        path: '/about',
+        name: 'About',
+        component: () => import('../views/AboutView.vue')
     }
 ]
 

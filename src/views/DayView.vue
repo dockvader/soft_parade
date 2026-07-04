@@ -53,19 +53,11 @@ const getTypeIcon = (type) => {
     </div>
 
     <div class="max-w-6xl mx-auto px-5 md:px-10 py-16 md:py-20">
-      <div class="grid gap-8 lg:grid-cols-[0.72fr_1.28fr] mb-12">
-        <div class="editorial-card rounded-[28px] p-6">
-          <p class="text-xs uppercase tracking-[0.35em] text-[var(--color-gold)] mb-4">Chapter Note</p>
-          <p class="text-white/70 leading-8">
-            {{ day.note }}
-          </p>
-        </div>
-        <div class="ad-slot rounded-[28px] p-6">
-          <p class="text-xs uppercase tracking-[0.35em] text-[var(--color-gold)] mb-3">Future Ad Placement</p>
-          <p class="text-white/62 leading-7">
-            This chapter page also has room for a mid-article Google ad unit if you want monetization inside story pages later.
-          </p>
-        </div>
+      <div class="editorial-card rounded-[28px] p-6 md:p-8 mb-12 max-w-3xl">
+        <p class="text-xs uppercase tracking-[0.35em] text-[var(--color-gold)] mb-4">Chapter Note</p>
+        <p class="text-white/70 leading-8">
+          {{ day.note }}
+        </p>
       </div>
 
       <div v-for="(stop, index) in day.stops" :key="index" class="group relative pl-8 md:pl-0 md:grid md:grid-cols-12 md:gap-10 pb-16 last:pb-0" data-aos="fade-up">

@@ -40,12 +40,6 @@ const journal = computed(() => journals.find(j => j.id === route.params.id))
               <div class="text-2xl mt-2">{{ stat.value }}</div>
             </div>
           </div>
-          <div class="ad-slot rounded-[28px] p-6">
-            <p class="text-xs uppercase tracking-[0.35em] text-[var(--color-gold)] mb-3">Sponsor Placement</p>
-            <p class="text-white/62 leading-7">
-              Ideal position for a responsive Google ad unit between the journal intro and the itinerary cards.
-            </p>
-          </div>
         </div>
 
         <div class="grid grid-cols-2 gap-4">
